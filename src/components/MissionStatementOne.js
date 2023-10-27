@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NftImg from "../images/alien.png";
+import NftImg from "../images/MissionStatementOne.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -9,6 +9,7 @@ const SectionWrapper = {
   position: "relative",
   display: "flex",
   alignItems: "center",
+  mt: { xs: "260px", md: "90px" },
   "& .BackShap": {
     boxShadow: "0px 7px 20px rgba(0, 0, 0, 0.4)",
     borderRadius: { xs: "0", lg: "0px 65px 65px 0px" },
@@ -22,10 +23,10 @@ const SectionWrapper = {
   },
 };
 
-const MissionAndVision = () => {
+const MissionStatementOne = () => {
   return (
     <>
-      <Box component={"section"} sx={SectionWrapper} className="SSS">
+      <Box component={"section"} sx={SectionWrapper}>
         <Box
           className="BackShap"
           sx={{ display: { xs: "none", md: "block" } }}
@@ -50,6 +51,7 @@ const MissionAndVision = () => {
                       marginBottom: "20px",
                       position: "relative",
                       width: "100%",
+                      lineHeight: "1.2",
                       "&::after": {
                         content: "''",
                         width: "0",
@@ -86,23 +88,35 @@ const MissionAndVision = () => {
                     },
                   }}
                 >
-                  <Typography component={"h3"}>MISSION & VISION</Typography>
-                  <Typography component={"h6"}>
+                  <Typography component={"h3"}>
+                    Mission Statement #1
+                    <br />
+                    Galactic Gang
+                  </Typography>
+                  {/* <Typography component={"h6"}>
                     Epic Battles meets Green Crusades
-                  </Typography>
+                  </Typography> */}
                   <Typography component={"p"}>
-                    PawFury redefines gaming. It's a thrill-fest that marries
-                    adrenaline-pumping action with a passion for the
-                    environment. GAMERS, ASSEMBLE!
+                    The Galactic Gang is a pioneering community at the
+                    intersection of the universe's mysteries and cryptocurrency.
+                    We provide our members with exclusive trading insights,
+                    thorough research, and personalized crypto analysis through
+                    our advanced AI machine learning model. Our commitment is to
+                    revolutionize trading and empower our community.
+                    Concurrently, we are conducting an extensive AI-driven
+                    investigation to unveil Satoshi Nakamoto's identity and
+                    potential involvement in a new crypto project. Our core
+                    mission is to equip our community for the crypto world,
+                    ensuring transparency, innovation, and knowledge pursuit.
                   </Typography>
-                  <Typography component={"h6"}>
+                  {/* <Typography component={"h6"}>
                     Battle for the Planet
                   </Typography>
                   <Typography component={"p"}>
                     PawFury is your call to arms. Game for the win, game for the
                     planet, and help us forge a greener future. It's time to
                     power up, heroes!
-                  </Typography>
+                  </Typography> */}
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>
@@ -113,11 +127,11 @@ const MissionAndVision = () => {
                       justifyContent: "center",
                     },
                     "& img": {
-                      width: "50%",
-
+                      width: "78%",
                       position: "relative",
                       zIndex: 5,
                       animation: "average-game-animation 1.5s ease-out",
+                      borderRadius: "25px",
                       "@media screen and (min-width:1366px) ": {},
                     },
                   }}
@@ -133,4 +147,4 @@ const MissionAndVision = () => {
   );
 };
 
-export default MissionAndVision;
+export default MissionStatementOne;

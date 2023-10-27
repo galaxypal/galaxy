@@ -3,6 +3,7 @@ import checkicon from "../images/greeneicon.svg";
 import CloudImgOne from "../images/cloudpartner.png";
 import CloudImgTwo from "../images/cloudpartner.png";
 import CloudImgThree from "../images/cloudpartner.png";
+import NftImg from "../images/BG-Nft.png";
 
 const partnerSection = {
   height: "auto",
@@ -13,7 +14,13 @@ const partnerSection = {
   paddingTop: { xs: "10px", sm: "60px" },
   zIndex: "0",
   position: "relative",
-  "& .pawfury_roadmap": {},
+  "& .BgImgNft": {
+    position: "absolute",
+    right: "80px",
+    bottom: "300px",
+    display: { xs: "none", md: "block" },
+    "& img": { width: "290px", transform: "scaleX(-1)" },
+  },
   "& .partnerbg": {
     position: "absolute",
     width: "100%",
@@ -87,7 +94,7 @@ const partnerSection = {
 };
 
 const listWrapper = {
-  display: "flex",
+  // display: "flex",
   paddingTop: "30px",
   gap: "15px",
   justifyContent: "center",
@@ -112,6 +119,14 @@ const listWrapper = {
       },
     },
   },
+  "& h3": {
+    fontSize: "22px",
+    fontWeight: 600,
+    color: "#2e2e0e",
+    lineHeight: 1.2,
+    marginBottom: "14px",
+  },
+  "& p": { fontSize: "16px", color: "#2e2e0e", mb: "10px" },
 };
 
 const CloudsWrapper = {
@@ -368,6 +383,11 @@ const TimelineWrapper = {
   },
   "& .timeline ul li.TimeLineBoxList:nth-of-type(odd) .content": {
     left: "calc(-433px - 45px)",
+    "@media screen and (min-width:1020px)": {
+      "&.ContentThird": {
+        top: "120px",
+      },
+    },
     "@media screen and (min-width:1200px)": {
       left: "calc(-383px - 45px)",
     },
@@ -437,7 +457,7 @@ const Partner = () => {
                   marginBottom: { xs: "65px", sm: "65px", md: "120px" },
                 }}
               >
-                ROADMAP
+                GALAXY GANG ROAD MAP
               </Typography>
             </Grid>
             <Grid item xs={12} lg={12}>
@@ -447,486 +467,88 @@ const Partner = () => {
                     <ul>
                       <li className="TimeLineBoxList">
                         <div className="content first_content">
-                          <Button sx={{}}>Q2 2023</Button>
+                          <Button sx={{}}>Phase 1</Button>
                           <Box sx={listWrapper}>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Game Conceptualization
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Market Research
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Tokenomics Definition
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Team Formation
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Tokenomics & Vesting
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Whitepaper v.1 Release
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Project Website Launch
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Smart Contract Deployment
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Legal Procedures
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
+                            <Typography component={"h3"}>
+                              Presale + Giveaways
+                            </Typography>
+                            <Typography component={"p"}>
+                              Exclusive presale for whitelisted members (WL 1,
+                              WL 2, WL 3)
+                            </Typography>
                           </Box>
                         </div>
                       </li>
                       <li className="TimeLineBoxList second_content">
                         <div className="content ">
-                          <Button sx={{}}>Q3 2023</Button>
+                          <Button sx={{}}>Phase 2</Button>
                           <Box sx={listWrapper}>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  MVP Development
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  AI Integration Planning
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Smart Contract Audit
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Token Presale Announcement
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Community Building Initiatives
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Community Engagement Events
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Influencer Collaborations
-                                </Typography>
-                              </Typography>
-                            </Box>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Game Mechanics and AI Events Development
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Carbon Tracking Partnerships
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  PawFury Teasers & Trailers Release
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  PR Campaigns & Influencer
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Marketing Initiatives
-                                </Typography>
-                              </Typography>
-                            </Box>
+                            <Typography component={"h3"}>The Launch</Typography>
+                            <Typography component={"p"}>
+                              Release of the remaining 6,000 GALAXY PALS for
+                              minting on the ETH Blockchain.
+                            </Typography>
                           </Box>
                         </div>
                       </li>
                       <li className="TimeLineBoxList third_content">
-                        <div className="content ">
-                          <Button sx={{}}>Q4 2023</Button>
+                        <div className="content ContentThird">
+                          <Button sx={{}}>Phase 3</Button>
                           <Box sx={listWrapper}>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Token Presale Completion
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Token Staking Initiatives
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  PawFury Alpha Release
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Introduction of In-Game Climate Events
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Development of NFT Marketplace
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Player Feedback Collection Event
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
+                            <Typography component={"h3"}>
+                              $GAXY Token, Staking, and Tokenomics
+                            </Typography>
+                            <Typography component={"p"}>
+                              Earn $GAXY through staking, contributing to
+                              selected charities, and participating in tree
+                              planting initiatives.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Launch of $GAXY token on exchanges, competing with
+                              other meme coins.
+                            </Typography>
                           </Box>
                         </div>
                       </li>
                       <li className="TimeLineBoxList fourth_content">
                         <div className="content ">
-                          <Button sx={{}}>Q1 2024</Button>
+                          <Button sx={{}}>Phase 4</Button>
                           <Box sx={listWrapper}>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  PawFury Beta Release
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  In-Game Events & Challenges
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Player Clans & Community Features
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Integration with Popular Gaming Platforms
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Community Feedback Collection Session
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
+                            <Typography component={"h3"}>
+                              Legendary GALAXY FREN Auctions and Collaborations
+                            </Typography>
+                            <Typography component={"p"}>
+                              Auctions of previous art and collaborations with
+                              other projects.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Profits partially allocated to $GAXY Liquidity
+                              Pool and tree planting initiatives.
+                            </Typography>
                           </Box>
                         </div>
                       </li>
                       <li className="TimeLineBoxList fifth_content">
                         <div className="content ">
-                          <Button sx={{}}>Q2 2024</Button>
+                          <Button sx={{}}>Phase 5</Button>
                           <Box sx={listWrapper}>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  PawFury Global Release
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Token Buyback & Burn Program
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Acquisition Strategies for Casual Players
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
-                            <Box
-                              component={"ul"}
-                              sx={{ pl: "0" }}
-                              className="listWrapper"
-                            >
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Expansion of In-Game Environmental Themes
-                                </Typography>
-                              </Typography>
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  Educational Content Integration
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  TGE & DEX isting
-                                </Typography>
-                              </Typography>{" "}
-                              <Typography component={"li"}>
-                                <Typography
-                                  component={"img"}
-                                  src={checkicon.src}
-                                  alt=""
-                                />
-                                <Typography component={"span"}>
-                                  CEX Listing
-                                </Typography>
-                              </Typography>{" "}
-                            </Box>
+                            <Typography component={"h3"}>
+                              Sustainability and Community Governance
+                            </Typography>
+                            <Typography component={"p"}>
+                              Ongoing tree planting and contributions to food
+                              conservation and climate change charities. $GAXY
+                              plays a central role in community governance.
+                              Additional Projects and Collaborations:
+                            </Typography>
+                            <Typography component={"p"}>
+                              Incubator project focusing on tree planting, with
+                              support from other projects. Development of a
+                              play-to-earn game by Arcadian Lab, a renowned web2
+                              gaming company. Join the GALAXY GANG for a
+                              transformative experience, driving change and
+                              exploring opportunities in the crypto universe.
+                            </Typography>
                           </Box>
                         </div>
                       </li>
@@ -1012,6 +634,9 @@ const Partner = () => {
             </div>
           </Box>
         </Container>
+      </Box>
+      <Box className="BgImgNft">
+        <Typography component={"img"} src={NftImg.src} alt="" />
       </Box>
     </Box>
   );

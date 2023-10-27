@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NftImg from "../images/alien.png";
+import NftImg from "../images/MissionStatementTwo.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -9,23 +9,24 @@ const SectionWrapper = {
   position: "relative",
   display: "flex",
   alignItems: "center",
+  mt: "90px",
   "& .BackShap": {
     boxShadow: "0px 7px 20px rgba(0, 0, 0, 0.4)",
-    borderRadius: { xs: "0", lg: "0px 65px 65px 0px" },
+    borderRadius: { xs: "0", lg: "65px 0px 0px 65px" },
     padding: "240px 0",
     width: { xs: "100%", sm: "100%", lg: "70%" },
     position: "absolute",
     top: "calc(50% - 240px)",
-    left: "0",
+    right: "0",
     zIndex: 0,
     backgroundColor: "#ffffff33",
   },
 };
 
-const MissionAndVision = () => {
+const MissionStatementTwo = () => {
   return (
     <>
-      <Box component={"section"} sx={SectionWrapper} className="SSS">
+      <Box component={"section"} sx={SectionWrapper}>
         <Box
           className="BackShap"
           sx={{ display: { xs: "none", md: "block" } }}
@@ -36,12 +37,34 @@ const MissionAndVision = () => {
               <Grid item xs={12} md={6}>
                 <Box
                   sx={{
+                    textAlign: "right",
+                    "@media screen and (max-width:768px)": {
+                      display: "flex",
+                      justifyContent: "center",
+                    },
+                    "& img": {
+                      width: "78%",
+                      position: "relative",
+                      zIndex: 5,
+                      animation: "average-game-animation-reverse 1.5s ease-out",
+                      borderRadius: "25px",
+                      "@media screen and (min-width:1366px) ": {},
+                    },
+                  }}
+                >
+                  <Typography component={"img"} src={NftImg.src} alt="" />
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={6}>
+                <Box
+                  sx={{
                     width: { xs: "100%", sm: "84%" },
                     height: "100%",
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "center",
                     alignItems: "flex-start",
+                    ml: "auto",
                     "& h3": {
                       color: "#FFFF00",
                       fontWeight: 700,
@@ -50,6 +73,7 @@ const MissionAndVision = () => {
                       marginBottom: "20px",
                       position: "relative",
                       width: "100%",
+                      lineHeight: "1",
                       "&::after": {
                         content: "''",
                         width: "0",
@@ -86,43 +110,20 @@ const MissionAndVision = () => {
                     },
                   }}
                 >
-                  <Typography component={"h3"}>MISSION & VISION</Typography>
-                  <Typography component={"h6"}>
-                    Epic Battles meets Green Crusades
+                  <Typography component={"h3"}>
+                    Mission Statement #2
+                    <br />
+                    Satoshi Nakamoto Investigation
                   </Typography>
-                  <Typography component={"p"}>
-                    PawFury redefines gaming. It's a thrill-fest that marries
-                    adrenaline-pumping action with a passion for the
-                    environment. GAMERS, ASSEMBLE!
-                  </Typography>
-                  <Typography component={"h6"}>
-                    Battle for the Planet
-                  </Typography>
-                  <Typography component={"p"}>
-                    PawFury is your call to arms. Game for the win, game for the
-                    planet, and help us forge a greener future. It's time to
-                    power up, heroes!
-                  </Typography>
-                </Box>
-              </Grid>
-              <Grid item xs={12} md={6}>
-                <Box
-                  sx={{
-                    "@media screen and (max-width:768px)": {
-                      display: "flex",
-                      justifyContent: "center",
-                    },
-                    "& img": {
-                      width: "50%",
 
-                      position: "relative",
-                      zIndex: 5,
-                      animation: "average-game-animation 1.5s ease-out",
-                      "@media screen and (min-width:1366px) ": {},
-                    },
-                  }}
-                >
-                  <Typography component={"img"} src={NftImg.src} alt="" />
+                  <Typography component={"p"}>
+                    The Galactic Gang is dedicated to uncovering the true
+                    identity of Satoshi Nakamoto, Bitcoin's enigmatic creator,
+                    and revealing his current crypto project involvement. Our
+                    research team, utilizing cutting-edge AI models, is on the
+                    verge of making significant discoveries, adding a
+                    captivating dimension to our community's journey.
+                  </Typography>
                 </Box>
               </Grid>
             </Grid>
@@ -133,4 +134,4 @@ const MissionAndVision = () => {
   );
 };
 
-export default MissionAndVision;
+export default MissionStatementTwo;

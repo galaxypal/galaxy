@@ -140,6 +140,7 @@ const Header = ({ setValue }) => {
           position: "relative",
           zIndex: "99999999999999",
           overflow: "hidden",
+          mb: "-60px",
         }}
       >
         <Container maxWidth="xl">

@@ -1,10 +1,14 @@
 import React from "react";
 import CardSwiper from "./CardSwiper";
-import { Grid, Typography, Container } from "@mui/material";
+import { Grid, Typography, Container, Box } from "@mui/material";
+
+const SectionWrapper = {
+  mt: { xs: "40px", md: "140px" },
+};
 
 const NftSection = () => {
   return (
-    <div>
+    <Box component={"section"} sx={SectionWrapper}>
       <Container>
         <Grid container spacing={2}>
           <Grid item xs={12} lg={5}>
@@ -39,7 +43,7 @@ const NftSection = () => {
           </Grid>
         </Grid>
       </Container>
-    </div>
+    </Box>
   );
 };
 

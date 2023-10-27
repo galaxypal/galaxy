@@ -1,14 +1,16 @@
 import React, { useEffect, useRef } from "react";
 import { Box, Typography } from "@mui/material";
+import BannerImg from "../images/HeroBanner.png";
 
 const SectionWrapper = {
-  backgroundImage: `linear-gradient(118deg, rgba(255,255,255,0.7820378151260504) 0%, rgba(174,77,200,0) 36%),`,
+  backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
-  backgroundPosition: "top center",
+  backgroundPosition: "center center",
   pt: "50px",
   position: "relative",
   html: { background: "#111", overflow: "hidden" },
+  // overflow: "hidden",
   ".dialog": {
     padding: "5px",
     background: "white",
@@ -509,7 +511,7 @@ const HomeAnimationBanner = () => {
           </div>
           <div id="BadshipContain"></div>
 
-          <div id="planet"></div>
+          {/* <div id="planet"></div> */}
         </div>
         <div id="scene">
           <div
@@ -522,16 +524,21 @@ const HomeAnimationBanner = () => {
             </h1>
             <Box sx={SectionSecoundBannerBox}>
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
-                Lorem Ipsum is simply dummy
+                GALAXY FRENS Overview
               </Typography>
               <Typography
                 component={"p"}
                 sx={{ textAlign: "center", color: "white" }}
               >
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                The GALAXY FRENS is a collection of 6,000 unique NFTs aiming to
+                establish a leading NFT community. Located on the moon's dark
+                side, the GALAXY GANG leverages Web 3.0 and a robust community
+                to tackle real-world issues and foster sustainability. Members,
+                as NFT holders, play a crucial role in this decentralized
+                initiative, engaging in governance, supporting causes, and
+                enjoying a premium digital community experience. The ultimate
+                goal is to create a lasting impact in both digital and physical
+                realms.
               </Typography>
             </Box>
           </div>

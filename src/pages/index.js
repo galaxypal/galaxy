@@ -8,6 +8,8 @@ import NftSection from "@/components/NftSection";
 import StarrySky from "@/components/SootingStar";
 import MintyLatestNews from "@/components/MintyLatestNews";
 import FAQ from "@/components/FAQ";
+import MissionStatementOne from "@/components/MissionStatementOne";
+import MissionStatementTwo from "@/components/MissionStatementTwo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,10 +26,10 @@ export default function Home() {
       <main className={` ${inter.className}`}>
         <Header setValue={setValue} />
         <HomeAnimationBanner />
-
-        <TabLetestNews value={value} setValue={setValue} />
+        {/* <TabLetestNews value={value} setValue={setValue} /> */}
+        <MissionStatementOne />
+        <MissionStatementTwo />
         <NftSection />
-
         <StarrySky />
         <MintyLatestNews />
         <FAQ />

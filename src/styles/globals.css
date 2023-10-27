@@ -21,6 +21,7 @@ button {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -60,6 +61,18 @@ body {
 @keyframes average-game-animation {
   0% {
     transform: translateX(200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes average-game-animation-reverse {
+  0% {
+    transform: translateX(-200px);
     opacity: 0;
   }
 
@@ -185,8 +198,7 @@ body {
   height: 100vw;
   position: absolute;
   overflow: hidden;
-  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
-    rotate(120deg);
+  transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%)) rotate(120deg);
 }
 
 .wish {
