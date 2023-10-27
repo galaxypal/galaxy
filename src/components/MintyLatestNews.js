@@ -9,8 +9,8 @@ import {
 } from "@mui/material";
 
 import team from "../images/Nft-1.png";
-import teamThree from "../images/Nft-2.png";
-import teamFour from "../images/Nft-3.png";
+import teamThree from "../images/Nft-7.png";
+import teamFour from "../images/Nft-8.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
