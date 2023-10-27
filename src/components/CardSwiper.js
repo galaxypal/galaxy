@@ -4,7 +4,14 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards } from "swiper/modules";
 import Image from "next/image";
-import alienImg from "../images/alienNft.png";
+import Nft1 from "../images/Nft-1.png";
+import Nft2 from "../images/Nft-2.png";
+import Nft3 from "../images/Nft-3.png";
+import Nft4 from "../images/Nft-4.png";
+import Nft5 from "../images/Nft-5.png";
+import Nft6 from "../images/Nft-6.png";
+import Nft7 from "../images/Nft-7.png";
+import Nft8 from "../images/Nft-8.png";
 import { Box } from "@mui/material";
 
 const CardSwiper = () => {
@@ -36,55 +43,28 @@ const CardSwiper = () => {
           mousewheel={{ invert: false }}
         >
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/2929f534-3bc3-4cbd-b84c-80df863d5a38"
-            />
+            <Image layout="fill" src={Nft1.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b6f5eb64-887c-43b1-aaba-d52a4c59a379"
-            />
+            <Image layout="fill" src={Nft2.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e906353b-fde0-4518-9a03-16545c1161bd"
-            />
+            <Image layout="fill" src={Nft3.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/fc21e481-e28a-41a8-9db3-3b62c1ddc17e"
-            />
+            <Image layout="fill" src={Nft4.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image layout="fill" src={alienImg.src} />
+            <Image layout="fill" src={Nft5.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/2ad44f5d-2215-4416-9c9b-2bae3be51a67"
-            />
+            <Image layout="fill" src={Nft6.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/aa8fe914-741f-4bf4-ad4a-24f19d1f4178"
-            />
+            <Image layout="fill" src={Nft7.src} />
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/d5f10b4f-7d34-45bd-bb5f-5f1530c2ac1c"
-            />
-          </SwiperSlide>
-          <SwiperSlide>
-            <Image
-              layout="fill"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/7cbac263-7c55-4428-908e-31018dc1bce3"
-            />
+            <Image layout="fill" src={Nft8.src} />
           </SwiperSlide>
         </Swiper>
       </Box>

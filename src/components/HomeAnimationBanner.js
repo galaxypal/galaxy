@@ -463,7 +463,12 @@ const SectionSecoundBannerBox = {
   display: "flex",
   flexDirection: { xs: "column", lg: "row" },
   p: "55px 40px 50px 45px",
-  "& h2": { color: "#fff", fontSize: "22px", lineHeight: "26px" },
+  "& h2": {
+    color: "#fff",
+    fontSize: "22px",
+    lineHeight: "26px",
+    alignSelf: "center",
+  },
   "& .BtnWrapper": {
     textAlign: { xs: "center", sm: "right" },
     mt: { xs: "15px", sm: "0" },
@@ -520,11 +525,11 @@ const HomeAnimationBanner = () => {
             <h1 id="welcome">
               GALAXY
               <br />
-              FRENS
+              GANG
             </h1>
             <Box sx={SectionSecoundBannerBox}>
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
-                GALAXY FRENS Overview
+                GALAXY GANG
               </Typography>
               <Typography
                 component={"p"}

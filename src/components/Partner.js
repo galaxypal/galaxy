@@ -16,10 +16,13 @@ const partnerSection = {
   position: "relative",
   "& .BgImgNft": {
     position: "absolute",
-    right: "80px",
-    bottom: "300px",
+    left: "80px",
+    bottom: "200px",
     display: { xs: "none", md: "block" },
-    "& img": { width: "290px", transform: "scaleX(-1)" },
+    "& img": {
+      width: "290px",
+      // transform: "scaleX(-1)"
+    },
   },
   "& .partnerbg": {
     position: "absolute",
@@ -373,6 +376,7 @@ const TimelineWrapper = {
   },
   "& .timeline ul li.TimeLineBoxList:nth-of-type(even) .content": {
     left: "50px",
+    top: "133px",
     "@media screen and (max-width:820px)": {
       position: "unset",
       width: "calc(100% - 40px)",
@@ -539,6 +543,15 @@ const Partner = () => {
                               Ongoing tree planting and contributions to food
                               conservation and climate change charities. $GAXY
                               plays a central role in community governance.
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList sixth_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 6</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>
                               Additional Projects and Collaborations:
                             </Typography>
                             <Typography component={"p"}>

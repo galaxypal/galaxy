@@ -8,9 +8,9 @@ import {
   Typography,
 } from "@mui/material";
 
-import team from "../images/team2.png";
-import teamThree from "../images/team3.png";
-import teamFour from "../images/team4.png";
+import team from "../images/Nft-1.png";
+import teamThree from "../images/Nft-2.png";
+import teamFour from "../images/Nft-3.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",

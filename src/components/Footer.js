@@ -101,7 +101,7 @@ const Footer = () => {
                       margin: "0 auto",
                     }}
                   >
-                    GALAXY <br /> FRENS
+                    GALAXY <br /> GANG
                   </Typography>
                 </Box>
               </Grid>
