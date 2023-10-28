@@ -3,7 +3,8 @@ import { Box, Typography } from "@mui/material";
 import BannerImg from "../images/BannerBgNewImage.png";
 
 const SectionWrapper = {
-  backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
+  // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
+  backgroundImage: `linear-gradient(180deg, #180f3917 0%, #0e090b87 80%), url(${BannerImg.src})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "center center",
