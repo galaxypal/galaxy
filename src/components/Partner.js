@@ -123,13 +123,20 @@ const listWrapper = {
     },
   },
   "& h3": {
-    fontSize: "22px",
+    fontSize: "30px",
     fontWeight: 600,
     color: "#2e2e0e",
     lineHeight: 1.2,
-    marginBottom: "14px",
+    marginBottom: "10px",
+    fontFamily: "Vividly!important",
   },
-  "& p": { fontSize: "16px", color: "#2e2e0e", mb: "10px" },
+  "& p": {
+    fontSize: "22px",
+    color: "#2e2e0e",
+    mb: "10px",
+    fontFamily: "Vividly!important",
+    lineHeight: "1",
+  },
 };
 
 const CloudsWrapper = {

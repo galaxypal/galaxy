@@ -129,7 +129,9 @@ const TheTrailerServices = {
   "& .planet_hero": {
     color: " #fff",
     textTransform: "uppercase",
-    fontSize: "24px",
+    fontSize: "32px",
+    fontFamily: "Vividly!important",
+    fontWeight: "100",
   },
   "& .emissions": {
     color: " #004BBF",
@@ -137,7 +139,9 @@ const TheTrailerServices = {
   "& .save_planet": {
     color: " #fff",
     textTransform: "uppercase",
-    fontSize: "24px",
+    fontSize: "32px",
+    fontFamily: "Vividly!important",
+    fontWeight: "100",
   },
   "& p": {
     color: "#B76229",
@@ -168,11 +172,14 @@ const MintyLatestNews = () => {
                   sx={{
                     textAlign: "center",
                     color: "#ffffff",
-                    textShadow: "4px 4px 1px #a6722a",
-                    fontSize: "40px",
+                    textShadow: "0.1em 0.1em 0 rgba(79, 49, 19, 0.478)",
+                    fontSize: "60px",
                     zIndex: 1,
                     mb: "60px",
                     position: "relative",
+                    fontFamily: "Vividly!important",
+                    textTransform: "uppercase",
+                    fontWeight: "900",
                   }}
                   component={"h2"}
                 >

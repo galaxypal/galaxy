@@ -32,12 +32,14 @@ const MenuWrapper = {
 
   "& p, p > a": {
     fontWeight: 500,
-    fontSize: "20px",
+    fontSize: "23px",
     lineHeight: "32px",
     pt: "20px",
     color: "#FFFFFF",
     textDecoration: "none",
     textAlign: { xs: "center", sm: "left" },
+    textTransform: "uppercase",
+    fontFamily: "Vividly!important",
   },
 };
 const SocialWrapper = {
@@ -46,13 +48,14 @@ const SocialWrapper = {
     pl: "0",
   },
   "& p": {
-    color: "#fff",
     fontWeight: 500,
-    fontSize: "20px",
+    fontSize: "23px",
     lineHeight: "32px",
     pt: "20px",
     color: "#FFFFFF",
     textAlign: { xs: "center", sm: "let" },
+    textTransform: "uppercase",
+    fontFamily: "Vividly!important",
   },
   "& .SocialMediaWrapper": {
     display: "flex",
