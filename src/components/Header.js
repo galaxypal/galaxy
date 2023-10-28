@@ -30,7 +30,7 @@ const DeskMenu = {
     fontWeight: 700,
     textDecoration: "none",
     textShadow:
-      "0 0 5px #ff63a2,0 0 10px #ff63a2,0 0 15px #ff63a2,0 0 20px #ff63a2,0 0 25px #ff63a2,0 0 30px #ff63a2",
+      "0 0 5px #00FF00,0 0 10px #00FF00,0 0 15px #00FF00,0 0 20px #00FF00,0 0 25px #00FF00,0 0 30px #00FF00",
   },
 
   "&:nth-of-type(1)": {

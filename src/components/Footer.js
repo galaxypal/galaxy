@@ -3,6 +3,7 @@ import React from "react";
 import facebook from "../images/facebook.png";
 import instagram from "../images/instagram.png";
 import twitter from "../images/twitter.png";
+import Logo from "../images/WhiteLogo.png";
 
 const SectionWrapper = {
   // backgroundColor: "#c27f14",
@@ -12,7 +13,7 @@ const SectionWrapper = {
 };
 const LogoWrapper = {
   textAlign: { xs: "center", sm: "left" },
-  "& img": { width: { xs: "auto", md: "100%" } },
+  "& img": { width: { xs: "auto", md: "100%" }, mt: "20px" },
 };
 const MenuWrapper = {
   position: "relative",
@@ -88,7 +89,7 @@ const Footer = () => {
             >
               <Grid item xs={12} sm={4} lg={2}>
                 <Box sx={LogoWrapper}>
-                  <Typography
+                  {/* <Typography
                     component={"p"}
                     sx={{
                       fontFamily: "'Londrina Outline',cursive!important",
@@ -102,7 +103,13 @@ const Footer = () => {
                     }}
                   >
                     GALAXY <br /> GANG
-                  </Typography>
+                  </Typography> */}
+                  <Typography
+                    className="Logo"
+                    component={"img"}
+                    src={Logo.src}
+                    alt=""
+                  />
                 </Box>
               </Grid>
               <Grid item xs={12} sm={4} lg={2}>

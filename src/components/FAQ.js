@@ -85,7 +85,7 @@ const FAQ = () => {
   return (
     <>
       <Box component={"section"} sx={SectionWrapper} id="FAQ">
-        <Container>
+        {/* <Container>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2} sx={{ mt: "30px" }}>
               <Grid item xs={12} md={6}>
@@ -287,7 +287,7 @@ const FAQ = () => {
               </Grid>
             </Grid>
           </Box>
-        </Container>
+        </Container> */}
         <Footer />
       </Box>
     </>

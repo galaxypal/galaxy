@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import BannerImg from "../images/BannerBgNewImage.png";
-
+import Logo from "../images/WhiteLogo.png";
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
   backgroundImage: `linear-gradient(180deg, #180f3917 0%, #0e090b87 80%), url(${BannerImg.src})`,
@@ -504,9 +504,9 @@ const HomeAnimationBanner = () => {
     <>
       <Box component={"section"} sx={SectionWrapper}>
         <div ref={sceneOneRef} id="sceneOne">
-          <div id="holeContain">
+          {/* <div id="holeContain">
             <div className="blackHole"></div>
-          </div>
+          </div> */}
           <div id="shipContain">
             <div className="ourShip"></div>
           </div>
@@ -523,11 +523,65 @@ const HomeAnimationBanner = () => {
           <div
             style={{ display: "flex", flexDirection: "column", width: "100%" }}
           >
-            <h1 id="welcome">
+            {/* <h1 id="welcome">
               GALAXY
               <br />
               GANG
-            </h1>
+            </h1> */}
+            <Box
+              sx={{
+                textAlign: "left",
+                marginTop: "70px",
+                marginBottom: "120px",
+                width: "440px",
+                alignSelf: "flex-end",
+                marginRight: "30px",
+                "& img": { width: "235px" },
+                "& .InnerBox": {
+                  "& h3": {
+                    color: "#ffffffc4",
+                    fontSize: "32px",
+                    lineHeight: 1,
+                    fontWeight: 700,
+                    marginTop: "20px",
+                    marginBottom: "8px",
+                    fontFamily: "Handbag !important",
+                    letterSpacing: "3px",
+                  },
+                  "& p": {
+                    color: "#ffffffc4",
+                    fontSize: "18px",
+                    lineHeight: 1,
+                    marginTop: "12px",
+                    marginBottom: "18px",
+                    fontFamily: "Handbag !important",
+                    letterSpacing: "3px",
+                  },
+                  "& button": {
+                    backgroundColor: "#d5392f",
+                    color: "#000000",
+                    fontSize: "18px",
+                    lineHeight: 1,
+                    fontWeight: 400,
+                    padding: "15px 40px 8px",
+                    borderRadius: "6px",
+                    fontFamily: "Handbag !important",
+                    letterSpacing: "3px",
+                  },
+                },
+              }}
+            >
+              <Typography component={"img"} src={Logo.src} alt="" />
+              <Box className="InnerBox">
+                <Typography component={"h3"}>
+                  HI GUYS, WELCOME TO GALAXY GANG
+                </Typography>
+                <Typography component={"P"}>
+                  MINT DATE : SOONER THAT YOU THINK
+                </Typography>
+                <Button>MINT</Button>
+              </Box>
+            </Box>
             <Box sx={SectionSecoundBannerBox}>
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
                 GALAXY GANG

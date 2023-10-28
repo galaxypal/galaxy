@@ -204,7 +204,8 @@ const MintyLatestNews = () => {
                     className="planet_hero"
                   >
                     {" "}
-                    Member 1 <br />
+                    @mina_monk
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
@@ -225,7 +226,8 @@ const MintyLatestNews = () => {
                   />
                   <Typography component={"p"} className="planet_hero">
                     {" "}
-                    Member 2 <br />
+                    @growthHackz
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
@@ -251,7 +253,8 @@ const MintyLatestNews = () => {
                     component={"p"}
                     className="save_planet"
                   >
-                    Member 3 <br />
+                    @SWIFT
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}

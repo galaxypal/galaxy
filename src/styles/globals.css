@@ -3,6 +3,11 @@
   src: url("./font/junegull.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Handbag";
+  src: url("./font/Handbag-Regular.ttf") format("truetype");
+}
+
 h1,
 h2 {
   font-family: "junegull" !important;

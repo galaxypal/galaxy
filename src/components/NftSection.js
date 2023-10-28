@@ -10,8 +10,8 @@ const NftSection = () => {
   return (
     <Box component={"section"} sx={SectionWrapper}>
       <Container>
-        <Grid container spacing={2}>
-          <Grid item xs={12} lg={5}>
+        <Grid container spacing={2} justifyContent={"center"}>
+          {/* <Grid item xs={12} lg={5}>
             <Typography
               component={"h2"}
               sx={{
@@ -36,7 +36,7 @@ const NftSection = () => {
               unknown printer took a galley of type and scrambled it to make a
               type specimen book.
             </Typography>
-          </Grid>
+          </Grid> */}
 
           <Grid item xs={12} lg={7}>
             <CardSwiper />
