@@ -539,7 +539,7 @@ const HomeAnimationBanner = () => {
                 "& img": { width: "235px" },
                 "& .InnerBox": {
                   "& h3": {
-                    color: "#ffffffc4",
+                    color: "#ffffff",
                     fontSize: "32px",
                     lineHeight: 1,
                     fontWeight: 700,
@@ -549,7 +549,7 @@ const HomeAnimationBanner = () => {
                     letterSpacing: "3px",
                   },
                   "& p": {
-                    color: "#ffffffc4",
+                    color: "#ffffff",
                     fontSize: "18px",
                     lineHeight: 1,
                     marginTop: "12px",
@@ -574,17 +574,17 @@ const HomeAnimationBanner = () => {
               <Typography component={"img"} src={Logo.src} alt="" />
               <Box className="InnerBox">
                 <Typography component={"h3"}>
-                  HI GUYS, WELCOME TO GALAXY GANG
+                  HI GUYS, WELCOME TO GALAXY PALS
                 </Typography>
                 <Typography component={"P"}>
-                  MINT DATE : SOONER THAT YOU THINK
+                  MINT DATE : SOONER THAN YOU THINK
                 </Typography>
                 <Button>MINT</Button>
               </Box>
             </Box>
             <Box sx={SectionSecoundBannerBox}>
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
-                GALAXY GANG
+                GALAXY PALS
               </Typography>
               <Typography
                 component={"p"}

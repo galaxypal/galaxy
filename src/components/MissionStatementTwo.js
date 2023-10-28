@@ -27,13 +27,13 @@ const MissionStatementTwo = () => {
   return (
     <>
       <Box component={"section"} sx={SectionWrapper}>
-        <Box
+        {/* <Box
           className="BackShap"
           sx={{ display: { xs: "none", md: "block" } }}
-        ></Box>
-        <Container sx={{ zIndex: "1" }}>
+        ></Box> */}
+        <Container sx={{ zIndex: "1" }} maxWidth="">
           <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={2} sx={{ mt: "0" }}>
+            <Grid container spacing={13} sx={{ mt: "0" }}>
               <Grid item xs={12} md={6}>
                 <Box
                   sx={{
@@ -58,7 +58,7 @@ const MissionStatementTwo = () => {
               <Grid item xs={12} md={6}>
                 <Box
                   sx={{
-                    width: { xs: "100%", sm: "84%" },
+                    // width: { xs: "100%", sm: "84%" },
                     height: "100%",
                     display: "flex",
                     flexDirection: "column",
@@ -66,14 +66,16 @@ const MissionStatementTwo = () => {
                     alignItems: "flex-start",
                     ml: "auto",
                     "& h3": {
-                      color: "#FFFF00",
-                      fontWeight: 700,
-                      fontSize: "30px",
+                      color: "#fff",
+                      fontWeight: 100,
+                      fontSize: "80px",
                       borderBottom: "2px solid #fff",
-                      marginBottom: "20px",
+                      marginBottom: "38px",
                       position: "relative",
                       width: "100%",
-                      lineHeight: "1",
+                      lineHeight: 0.7,
+                      fontFamily: "Vividly !important",
+                      textTransform: "uppercase",
                       "&::after": {
                         content: "''",
                         width: "0",
@@ -92,10 +94,13 @@ const MissionStatementTwo = () => {
                       marginBottom: "0px",
                     },
                     "& p": {
-                      color: "#00FF00",
+                      color: "#fff",
                       fontWeight: 500,
-                      fontSize: "16px",
+                      fontSize: "26px",
                       marginBottom: "20px",
+                      lineHeight: 0.9,
+                      fontFamily: "Vividly !important",
+                      textTransform: "uppercase",
                     },
                     "& button": {
                       background:

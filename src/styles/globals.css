@@ -8,6 +8,11 @@
   src: url("./font/Handbag-Regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Vividly";
+  src: url("./font/Vividly-Regular.ttf") format("truetype");
+}
+
 h1,
 h2 {
   font-family: "junegull" !important;
