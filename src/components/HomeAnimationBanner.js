@@ -547,8 +547,8 @@ const HomeAnimationBanner = () => {
             </h1> */}
             <Box
               sx={{
-                textAlign: "left",
-                marginTop: { xs: "24px", lg: "70px" },
+                textAlign: { xs: "center", md: "left" },
+                marginTop: { xs: "40px", lg: "70px" },
                 marginBottom: { xs: "50px", md: "80px", lg: "120px" },
                 width: { xs: "85vw", sm: "62vw", lg: "440px" },
                 alignSelf: "flex-end",

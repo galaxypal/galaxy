@@ -145,7 +145,7 @@ const Header = ({ setValue }) => {
       >
         <Container maxWidth="xl">
           <Toolbar disableGutters sx={{ minHeight: { sm: "55px" } }}>
-            <Box
+            {/* <Box
               sx={{
                 flexGrow: 1,
                 display: { xs: "flex", lg: "none" },
@@ -153,12 +153,7 @@ const Header = ({ setValue }) => {
                 alignItems: "center",
               }}
             >
-              {/* <Typography
-                component={"img"}
-                src={Logo}
-                alt=""
-                sx={{ width: "100px" }}
-              /> */}
+              
               <IconButton
                 size="large"
                 aria-label="account of current user"
@@ -212,18 +207,14 @@ const Header = ({ setValue }) => {
                     <Typography textAlign="right">Team</Typography>
                   </Typography>
                 </MenuItem>
-                {/* <MenuItem onClick={handleCloseNavMenu}>
-                  <Typography component={"a"} href="#FAQ">
-                    <Typography textAlign="right">FAQ</Typography>
-                  </Typography>
-                </MenuItem> */}
+               
               </Menu>
-            </Box>
+            </Box> */}
 
             <Box
               sx={{
                 flexGrow: 1,
-                display: { xs: "none", lg: "flex" },
+                display: { xs: "flex" },
                 justifyContent: "center",
               }}
             >
