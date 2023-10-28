@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Box, Typography } from "@mui/material";
-import BannerImg from "../images/HeroBanner.png";
+import BannerImg from "../images/BannerBgNewImage.png";
 
 const SectionWrapper = {
   backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
@@ -458,8 +458,8 @@ const SectionSecoundBannerBox = {
   m: "0 auto",
   width: "62vw",
   borderRadius: "20px",
-  border: "2px solid red",
-  boxShadow: "0px 0px 30px 0px red",
+  // border: "2px solid red",
+  // boxShadow: "0px 0px 30px 0px red",
   display: "flex",
   flexDirection: { xs: "column", lg: "row" },
   p: "55px 40px 50px 45px",

@@ -27,7 +27,8 @@ html {
 body {
   /* background-color: black; */
   margin: 0;
-  background: linear-gradient(to right, #1b1146 0%, #0e090b 50%);
+  /* background: linear-gradient(to right, #1b1146 0%, #0e090b 50%); */
+  background-color: #000
 }
 
 @keyframes banner-floating {
