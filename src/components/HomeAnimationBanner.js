@@ -459,11 +459,12 @@ const SectionSecoundBannerBox = {
   m: "0 auto",
   width: "62vw",
   borderRadius: "20px",
+  backgroundColor: "#0006",
   // border: "2px solid red",
   // boxShadow: "0px 0px 30px 0px red",
   display: "flex",
   flexDirection: { xs: "column", lg: "row" },
-  p: "55px 40px 50px 45px",
+  p: "41px 40px 36px 45px",
   "& h2": {
     color: "#fff",
     lineHeight: "26px",
@@ -476,7 +477,7 @@ const SectionSecoundBannerBox = {
     color: "#fff",
     lineHeight: "26px",
     fontFamily: "Vividly !important",
-    fontSize: "22px",
+    fontSize: "30px",
     fontWeight: 100,
   },
   "& .BtnWrapper": {
@@ -535,7 +536,7 @@ const HomeAnimationBanner = () => {
             {/* <h1 id="welcome">
               GALAXY
               <br />
-              GANG
+              PALS
             </h1> */}
             <Box
               sx={{
@@ -569,10 +570,10 @@ const HomeAnimationBanner = () => {
                   "& button": {
                     backgroundColor: "#d5392f",
                     color: "#000000",
-                    fontSize: "18px",
+                    fontSize: "28px",
                     lineHeight: 1,
-                    fontWeight: 400,
-                    padding: "15px 40px 8px",
+                    fontWeight: 800,
+                    padding: "22px 49px 8px",
                     borderRadius: "6px",
                     fontFamily: "Handbag !important",
                     letterSpacing: "3px",
@@ -599,9 +600,9 @@ const HomeAnimationBanner = () => {
                 component={"p"}
                 sx={{ textAlign: "center", color: "white" }}
               >
-                The GALAXY FRENS is a collection of 6,000 unique NFTs aiming to
+                The GALAXY PALS is a collection of 6,000 unique NFTs aiming to
                 establish a leading NFT community. Located on the moon's dark
-                side, the GALAXY GANG leverages Web 3.0 and a robust community
+                side, the GALAXY PALS leverages Web 3.0 and a robust community
                 to tackle real-world issues and foster sustainability. Members,
                 as NFT holders, play a crucial role in this decentralized
                 initiative, engaging in governance, supporting causes, and

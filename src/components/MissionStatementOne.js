@@ -110,10 +110,10 @@ const MissionStatementOne = () => {
                   <Typography component={"span"}>
                     Mission Statement #1
                   </Typography>
-                  <Typography component={"h3"}>Galactic Gang</Typography>
+                  <Typography component={"h3"}>Galactic PALS</Typography>
 
                   <Typography component={"p"}>
-                    The Galactic Gang is a pioneering community at the
+                    The Galactic PALS is a pioneering community at the
                     intersection of the universe's mysteries and cryptocurrency.
                     We provide our members with exclusive trading insights,
                     thorough research, and personalized crypto analysis through

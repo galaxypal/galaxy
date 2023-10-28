@@ -102,7 +102,7 @@ const Footer = () => {
                       margin: "0 auto",
                     }}
                   >
-                    GALAXY <br /> GANG
+                    GALAXY <br /> PALS
                   </Typography> */}
                   <Typography
                     className="Logo"
@@ -215,7 +215,7 @@ const Footer = () => {
                     </Typography> */}
                   </Box>
                   <Typography component={"p"} sx={{ mt: "40px" }}>
-                    GALAXY FRENS @2023
+                    GALAXY PALS @2023
                   </Typography>
                 </Box>
               </Grid>

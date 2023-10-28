@@ -321,13 +321,13 @@ const TimelineWrapper = {
       right: "-18px",
       top: "-25px",
       backgroundColor: "#FFFF00",
-      padding: "10px 60px",
+      padding: "10px 60px 5px",
       borderRadius: "50px",
       boxShadow: "0px 4px 4px 0px #00000040",
       color: "#111",
       fontWeight: 700,
-      fontFamily: "'Baloo 2'",
-      fontSize: "16px",
+      fontFamily: "Vividly!important",
+      fontSize: "20px",
       "@media screen and (max-width:820px)": { right: "unset", left: "0" },
     },
   },
@@ -560,7 +560,7 @@ const Partner = () => {
                               Incubator project focusing on tree planting, with
                               support from other projects. Development of a
                               play-to-earn game by Arcadian Lab, a renowned web2
-                              gaming company. Join the GALAXY GANG for a
+                              gaming company. Join the GALAXY PALS for a
                               transformative experience, driving change and
                               exploring opportunities in the crypto universe.
                             </Typography>

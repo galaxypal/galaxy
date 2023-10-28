@@ -137,7 +137,7 @@ const MissionStatementTwo = () => {
                   </Typography>
 
                   <Typography component={"p"}>
-                    The Galactic Gang is dedicated to uncovering the true
+                    The Galactic PALS is dedicated to uncovering the true
                     identity of Satoshi Nakamoto, Bitcoin's enigmatic creator,
                     and revealing his current crypto project involvement. Our
                     research team, utilizing cutting-edge AI models, is on the
