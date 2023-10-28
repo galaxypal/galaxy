@@ -54,6 +54,7 @@ const MissionStatementOne = () => {
                       lineHeight: 0.7,
                       fontFamily: "Vividly !important",
                       textTransform: "uppercase",
+                      letterSpacing: "-2px",
                       "&::after": {
                         content: "''",
                         width: "0",
@@ -76,7 +77,7 @@ const MissionStatementOne = () => {
                       fontWeight: 500,
                       fontSize: "26px",
                       marginBottom: "20px",
-                      lineHeight: 0.9,
+                      lineHeight: 1,
                       fontFamily: "Vividly !important",
                       textTransform: "uppercase",
                     },
