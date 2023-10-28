@@ -466,9 +466,18 @@ const SectionSecoundBannerBox = {
   p: "55px 40px 50px 45px",
   "& h2": {
     color: "#fff",
-    fontSize: "22px",
     lineHeight: "26px",
     alignSelf: "center",
+    fontFamily: "Vividly !important",
+    fontSize: "32px",
+    fontWeight: 700,
+  },
+  "& p": {
+    color: "#fff",
+    lineHeight: "26px",
+    fontFamily: "Vividly !important",
+    fontSize: "22px",
+    fontWeight: 100,
   },
   "& .BtnWrapper": {
     textAlign: { xs: "center", sm: "right" },

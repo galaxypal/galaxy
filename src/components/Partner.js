@@ -456,12 +456,14 @@ const Partner = () => {
                 sx={{
                   color: "#fff",
                   textShadow: ".1em .1em 0 rgba(79, 49, 19, 0.478)",
-                  fontSize: "48px",
+                  fontSize: "60px",
                   textAlign: { xs: "center", lg: "center" },
                   marginBottom: { xs: "65px", sm: "65px", md: "120px" },
+                  fontFamily: "Vividly !important",
+                  fontWeight: "900",
                 }}
               >
-                GALAXY GANG ROAD MAP
+                GALAXY PALS ROAD MAP
               </Typography>
             </Grid>
             <Grid item xs={12} lg={12}>

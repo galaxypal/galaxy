@@ -92,13 +92,25 @@ const MissionStatementOne = () => {
                       color: "#fff",
                       borderRadius: "50px",
                     },
+                    "& span": {
+                      backgroundColor: "#23fea8",
+                      color: "#000",
+                      fontWeight: 100,
+                      fontSize: "20px",
+                      marginBottom: "25px",
+                      lineHeight: 0.7,
+                      fontFamily: "Vividly !important",
+                      textTransform: "uppercase",
+                      letterSpacing: "0px",
+                      padding: "6px 12px 3px",
+                      borderRadius: "50px",
+                    },
                   }}
                 >
-                  <Typography component={"h3"}>
+                  <Typography component={"span"}>
                     Mission Statement #1
-                    <br />
-                    Galactic Gang
                   </Typography>
+                  <Typography component={"h3"}>Galactic Gang</Typography>
 
                   <Typography component={"p"}>
                     The Galactic Gang is a pioneering community at the
@@ -127,7 +139,7 @@ const MissionStatementOne = () => {
                       position: "relative",
                       zIndex: 5,
                       animation: "average-game-animation 1.5s ease-out",
-                      borderRadius: "25px",
+                      // borderRadius: "25px",
                       "@media screen and (min-width:1366px) ": {},
                     },
                   }}
