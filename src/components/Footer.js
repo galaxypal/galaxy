@@ -1,7 +1,7 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import facebook from "../images/facebook.png";
-import instagram from "../images/instagram.png";
+import Telegram from "../images/Telegram.png";
+import DiscordSocial from "../images/DiscordSocial.png";
 import twitter from "../images/twitter.png";
 import Logo from "../images/WhiteLogo.png";
 
@@ -184,12 +184,12 @@ const Footer = () => {
                   <Typography component={"p"}>COMMUNITY</Typography>
                   <Box className="SocialMediaWrapper">
                     <Typography component={"a"} href="#">
-                      <Typography component={"img"} src={facebook.src} alt="" />
+                      <Typography component={"img"} src={Telegram.src} alt="" />
                     </Typography>
                     <Typography component={"a"} href="#">
                       <Typography
                         component={"img"}
-                        src={instagram.src}
+                        src={DiscordSocial.src}
                         alt=""
                       />
                     </Typography>
