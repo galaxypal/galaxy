@@ -483,11 +483,15 @@ const Partner = () => {
                           <Button sx={{}}>Phase 1</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Presale + Giveaways
+                              Presale and Community Building
                             </Typography>
                             <Typography component={"p"}>
-                              Exclusive presale for whitelisted members (WL 1,
-                              WL 2, WL 3)
+                              Exclusive presale access for whitelisted members.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Initiatives to foster community engagement and
+                              establish a strong foundation of trust and
+                              collaboration.
                             </Typography>
                           </Box>
                         </div>
@@ -496,10 +500,12 @@ const Partner = () => {
                         <div className="content ">
                           <Button sx={{}}>Phase 2</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>The Launch</Typography>
+                            <Typography component={"h3"}>
+                              Official Launch
+                            </Typography>
                             <Typography component={"p"}>
-                              Release of the remaining 6,000 GALAXY PALS for
-                              minting on the ETH Blockchain.
+                              Release of the remaining 6,000 GALAXY PALS NFTs
+                              for public minting on the Ethereum blockchain
                             </Typography>
                           </Box>
                         </div>
@@ -509,16 +515,18 @@ const Partner = () => {
                           <Button sx={{}}>Phase 3</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              $GAXY Token, Staking, and Tokenomics
+                              Metaverse Collaboration and Trading Mastery
                             </Typography>
                             <Typography component={"p"}>
-                              Earn $GAXY through staking, contributing to
-                              selected charities, and participating in tree
-                              planting initiatives.
+                              Partnership with Aiden Metaverse and other
+                              prominent projects to host team gatherings, where
+                              we disclose market insights, strategize on
+                              trading, and collaboratively work on side quests.
                             </Typography>
                             <Typography component={"p"}>
-                              Launch of $GAXY token on exchanges, competing with
-                              other meme coins.
+                              Enhancement of our trading tools and resources,
+                              ensuring our community has the best possible
+                              advantages in the market.
                             </Typography>
                           </Box>
                         </div>
@@ -528,15 +536,17 @@ const Partner = () => {
                           <Button sx={{}}>Phase 4</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Legendary GALAXY FREN Auctions and Collaborations
+                              GALAXY PALS Auctions and Community Events
                             </Typography>
                             <Typography component={"p"}>
-                              Auctions of previous art and collaborations with
-                              other projects.
+                              Conduct legendary GALAXY PALS auctions and
+                              collaborative events, with a portion of the
+                              proceeds supporting community initiatives and
+                              causes.
                             </Typography>
                             <Typography component={"p"}>
-                              Profits partially allocated to $GAXY Liquidity
-                              Pool and tree planting initiatives.
+                              Engage the community in decision-making processes,
+                              ensuring a democratic and inclusive environment.
                             </Typography>
                           </Box>
                         </div>
@@ -545,18 +555,19 @@ const Partner = () => {
                         <div className="content ">
                           <Button sx={{}}>Phase 5</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>
+                            {/* <Typography component={"h3"}>
                               Sustainability and Community Governance
-                            </Typography>
+                            </Typography> */}
                             <Typography component={"p"}>
-                              Ongoing tree planting and contributions to food
-                              conservation and climate change charities. $GAXY
-                              plays a central role in community governance.
+                              Exploration of potential opportunities in creating
+                              a play-to-earn game or launching a meme coin,
+                              further expanding our community's engagement and
+                              impact.
                             </Typography>
                           </Box>
                         </div>
                       </li>
-                      <li className="TimeLineBoxList sixth_content">
+                      {/* <li className="TimeLineBoxList sixth_content">
                         <div className="content ">
                           <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
@@ -573,7 +584,7 @@ const Partner = () => {
                             </Typography>
                           </Box>
                         </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </section>
                 </div>

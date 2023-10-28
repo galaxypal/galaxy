@@ -600,15 +600,13 @@ const HomeAnimationBanner = () => {
                 component={"p"}
                 sx={{ textAlign: "center", color: "white" }}
               >
-                The GALAXY PALS is a collection of 6,000 unique NFTs aiming to
-                establish a leading NFT community. Located on the moon's dark
-                side, the GALAXY PALS leverages Web 3.0 and a robust community
-                to tackle real-world issues and foster sustainability. Members,
-                as NFT holders, play a crucial role in this decentralized
-                initiative, engaging in governance, supporting causes, and
-                enjoying a premium digital community experience. The ultimate
-                goal is to create a lasting impact in both digital and physical
-                realms.
+                GALAXY PALS, is a collection of 6,000 NFTs aiming to establish a
+                leading community. Positioned on the moon's dark side, we
+                leverage the transformative power of Web 3.0 to create a
+                collaborative trading environment. Members, as NFT holders, play
+                a crucial role in this decentralized initiative, engaging in
+                governance, supporting causes, and enjoying a premium digital
+                community experience.
               </Typography>
             </Box>
           </div>

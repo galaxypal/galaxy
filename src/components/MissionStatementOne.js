@@ -108,22 +108,28 @@ const MissionStatementOne = () => {
                   }}
                 >
                   <Typography component={"span"}>
-                    Mission Statement #1
+                    Unified Mission Statement
                   </Typography>
-                  <Typography component={"h3"}>Galactic PALS</Typography>
+                  <Typography component={"h3"}>
+                    Trading Excellence and Market Mastery
+                  </Typography>
 
                   <Typography component={"p"}>
-                    The Galactic PALS is a pioneering community at the
-                    intersection of the universe's mysteries and cryptocurrency.
-                    We provide our members with exclusive trading insights,
-                    thorough research, and personalized crypto analysis through
-                    our advanced AI machine learning model. Our commitment is to
-                    revolutionize trading and empower our community.
-                    Concurrently, we are conducting an extensive AI-driven
-                    investigation to unveil Satoshi Nakamoto's identity and
-                    potential involvement in a new crypto project. Our core
-                    mission is to equip our community for the crypto world,
-                    ensuring transparency, innovation, and knowledge pursuit.
+                    Welcome to the Galactic Pals, where we merge the art of
+                    trading with detective-like market analysis to create a
+                    powerhouse community. Our primary focus is empowering
+                    members to achieve financial prosperity through informed
+                    trading decisions, backed by exclusive signals from a trader
+                    with over 300% monthly returns and our usage of advanced
+                    AI-driven crypto analysis.
+                  </Typography>
+                  <Typography component={"p"}>
+                    We pride ourselves on being trading detectives, adept at
+                    navigating market manipulations and profiting from
+                    anomalies. Our technical analysis expertise transforms us
+                    into market maestros, trading with the precision of market
+                    makers.As we navigate the crypto world's complexities, we
+                    also embark on thrilling side quests.
                   </Typography>
                 </Box>
               </Grid>

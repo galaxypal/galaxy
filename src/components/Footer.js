@@ -4,6 +4,7 @@ import Telegram from "../images/Telegram.png";
 import DiscordSocial from "../images/DiscordSocial.png";
 import twitter from "../images/twitter.png";
 import Logo from "../images/WhiteLogo.png";
+import Instagram from "../images/instagram.png";
 
 const SectionWrapper = {
   // backgroundColor: "#c27f14",
@@ -173,9 +174,9 @@ const Footer = () => {
                   <Typography component={"p"} sx={{ mt: "40px" }}>
                     <Typography
                       component={"a"}
-                      href="mailto:info@galaxyfrends.com"
+                      href="mailto:galaxypal4@gmail.com"
                     >
-                      info@galaxyfrends.com
+                      galaxypal4@gmail.com
                     </Typography>
                   </Typography>
                   {/* <Typography component={"p"}>Whitepaper</Typography> */}
@@ -186,19 +187,27 @@ const Footer = () => {
                 <Box sx={SocialWrapper}>
                   <Typography component={"p"}>COMMUNITY</Typography>
                   <Box className="SocialMediaWrapper">
-                    <Typography component={"a"} href="#">
+                    <Typography component={"a"} href="#" target="_blank">
+                      <Typography component={"img"} src={twitter.src} alt="" />
+                    </Typography>
+                    <Typography component={"a"} href="#" target="_blank">
                       <Typography component={"img"} src={Telegram.src} alt="" />
                     </Typography>
-                    <Typography component={"a"} href="#">
+                    <Typography component={"a"} href="#" target="_blank">
+                      <Typography
+                        component={"img"}
+                        src={Instagram.src}
+                        alt=""
+                      />
+                    </Typography>
+                    <Typography component={"a"} href="#" target="_blank">
                       <Typography
                         component={"img"}
                         src={DiscordSocial.src}
                         alt=""
                       />
                     </Typography>
-                    <Typography component={"a"} target="_blank">
-                      <Typography component={"img"} src={twitter.src} alt="" />
-                    </Typography>
+
                     {/* <Typography
                       component={"a"}
     

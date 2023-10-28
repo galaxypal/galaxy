@@ -129,20 +129,19 @@ const MissionStatementTwo = () => {
                     },
                   }}
                 >
-                  <Typography component={"span"}>
-                    Mission Statement #2
-                  </Typography>
+                  <Typography component={"span"}>Our first mission</Typography>
                   <Typography component={"h3"}>
-                    Satoshi Nakamoto Investigation
+                    Unveiling the true identity of Satoshi Nakamoto
                   </Typography>
 
                   <Typography component={"p"}>
-                    The Galactic PALS is dedicated to uncovering the true
-                    identity of Satoshi Nakamoto, Bitcoin's enigmatic creator,
-                    and revealing his current crypto project involvement. Our
-                    research team, utilizing cutting-edge AI models, is on the
-                    verge of making significant discoveries, adding a
-                    captivating dimension to our community's journey.
+                    Bitcoin's mysterious creator. Armed with a machine learning
+                    AI that's delivering promising results, we're more equipped
+                    than ever to crack this mystery.This quest exemplifies our
+                    commitment to uncovering market truths and mastering the art
+                    of trading.Join us at Galactic Pals, where trading
+                    excellence meets market mastery, and together, we redefine
+                    the realms of financial freedom.
                   </Typography>
                 </Box>
               </Grid>
