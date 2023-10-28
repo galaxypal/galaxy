@@ -9,7 +9,7 @@ const SectionWrapper = {
   position: "relative",
   display: "flex",
   alignItems: "center",
-  mt: { xs: "260px", md: "90px" },
+  mt: { xs: "90px", sm: "90px", md: "90px", lg: "90px" },
   "& .BackShap": {
     boxShadow: "0px 7px 20px rgba(0, 0, 0, 0.4)",
     borderRadius: { xs: "0", lg: "0px 65px 65px 0px" },
@@ -26,14 +26,19 @@ const SectionWrapper = {
 const MissionStatementOne = () => {
   return (
     <>
-      <Box component={"section"} sx={SectionWrapper}>
+      <Box component={"section"} sx={SectionWrapper} id="About">
         {/* <Box
           className="BackShap"
           sx={{ display: { xs: "none", md: "block" } }}
         ></Box> */}
         <Container sx={{ zIndex: "1" }} maxWidth="">
           <Box sx={{ flexGrow: 1 }}>
-            <Grid container spacing={13} sx={{ mt: "0" }}>
+            <Grid
+              container
+              spacing={{ xs: 10, md: 13, lg: 13 }}
+              sx={{ mt: "0" }}
+              flexDirection={{ xs: "column-reverse", md: "row" }}
+            >
               <Grid item xs={12} md={6}>
                 <Box
                   sx={{
@@ -141,7 +146,7 @@ const MissionStatementOne = () => {
                       justifyContent: "center",
                     },
                     "& img": {
-                      width: "78%",
+                      width: { xs: "100%", md: "78%" },
                       position: "relative",
                       zIndex: 5,
                       animation: "average-game-animation 1.5s ease-out",

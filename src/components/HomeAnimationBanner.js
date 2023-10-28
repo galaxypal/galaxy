@@ -10,6 +10,12 @@ const SectionWrapper = {
   backgroundPosition: "center center",
   pt: "50px",
   position: "relative",
+  "@media screen and (max-width: 1030px)": {
+    backgroundImage: `linear-gradient(180deg, #180f399c 0%, #0e090b9e 80%), url(${BannerImg.src})`,
+  },
+  "@media screen and (max-width: 600px)": {
+    height: "115vh",
+  },
   html: { background: "#111", overflow: "hidden" },
   // overflow: "hidden",
   ".dialog": {
@@ -323,7 +329,8 @@ const SectionWrapper = {
       height: "72vh",
     },
     "@media screen and (max-width: 600px)": {
-      height: "65vh",
+      height: "auto",
+      minHeight: "100vh",
     },
   },
   "#scene > div": {
@@ -457,7 +464,7 @@ const SectionSecoundBannerBox = {
   backgroundSize: "cover",
   backgroundPosition: "top center",
   m: "0 auto",
-  width: "62vw",
+  width: { xs: "70vw", sm: "62vw" },
   borderRadius: "20px",
   backgroundColor: "#0006",
   // border: "2px solid red",
@@ -541,11 +548,15 @@ const HomeAnimationBanner = () => {
             <Box
               sx={{
                 textAlign: "left",
-                marginTop: "70px",
-                marginBottom: "120px",
-                width: "440px",
+                marginTop: { xs: "24px", lg: "70px" },
+                marginBottom: { xs: "50px", md: "80px", lg: "120px" },
+                width: { xs: "85vw", sm: "62vw", lg: "440px" },
                 alignSelf: "flex-end",
                 marginRight: "30px",
+                "@media screen and (max-width:1100px)": {
+                  ml: "auto",
+                  mr: "auto",
+                },
                 "& img": { width: "235px" },
                 "& .InnerBox": {
                   "& h3": {

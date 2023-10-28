@@ -212,11 +212,11 @@ const Header = ({ setValue }) => {
                     <Typography textAlign="right">Team</Typography>
                   </Typography>
                 </MenuItem>
-                <MenuItem onClick={handleCloseNavMenu}>
+                {/* <MenuItem onClick={handleCloseNavMenu}>
                   <Typography component={"a"} href="#FAQ">
                     <Typography textAlign="right">FAQ</Typography>
                   </Typography>
-                </MenuItem>
+                </MenuItem> */}
               </Menu>
             </Box>
 
@@ -242,11 +242,11 @@ const Header = ({ setValue }) => {
                   Team
                 </Typography>
               </Button>
-              <Button sx={DeskMenu} onClose={handleClose2}>
+              {/* <Button sx={DeskMenu} onClose={handleClose2}>
                 <Typography component={"a"} href="#FAQ">
                   FAQ
                 </Typography>
-              </Button>
+              </Button> */}
             </Box>
           </Toolbar>
         </Container>

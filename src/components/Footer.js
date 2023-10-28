@@ -14,7 +14,7 @@ const SectionWrapper = {
 };
 const LogoWrapper = {
   textAlign: { xs: "center", sm: "left" },
-  "& img": { width: { xs: "auto", md: "100%" }, mt: "20px" },
+  "& img": { width: { xs: "200px", md: "200px", lg: "100%" }, mt: "20px" },
 };
 const MenuWrapper = {
   position: "relative",
@@ -119,9 +119,19 @@ const Footer = () => {
               <Grid item xs={12} sm={4} lg={2}>
                 <Box sx={MenuWrapper}>
                   <Typography component={"p"}>
-                    <Typography component={"a"} href={"#"}>
+                    <Typography component={"a"} href={"#About"}>
                       {" "}
-                      Home
+                      About
+                    </Typography>
+                  </Typography>
+                  <Typography component={"p"}>
+                    <Typography component={"a"} href={"#Roadmap"}>
+                      Roadmap
+                    </Typography>
+                  </Typography>
+                  <Typography component={"p"}>
+                    <Typography component={"a"} href={"#Team"}>
+                      Team
                     </Typography>
                   </Typography>
                   {/* <Typography component={"p"}>Marketplace</Typography> */}
@@ -130,11 +140,11 @@ const Footer = () => {
                       Blog
                     </Typography>
                   </Typography> */}
-                  <Typography component={"p"}>
+                  {/* <Typography component={"p"}>
                     <Typography component={"a"} href={"#FAQ"}>
                       FAQ
                     </Typography>
-                  </Typography>
+                  </Typography> */}
                 </Box>
               </Grid>
               <Grid item xs={12} sm={4} lg={2}>

@@ -567,24 +567,18 @@ const Partner = () => {
                           </Box>
                         </div>
                       </li>
-                      {/* <li className="TimeLineBoxList sixth_content">
+                      <li className="TimeLineBoxList sixth_content">
                         <div className="content ">
                           <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>
-                              Additional Projects and Collaborations:
-                            </Typography>
+                            <Typography component={"h3"}>Airdrops</Typography>
                             <Typography component={"p"}>
-                              Incubator project focusing on tree planting, with
-                              support from other projects. Development of a
-                              play-to-earn game by Arcadian Lab, a renowned web2
-                              gaming company. Join the GALAXY PALS for a
-                              transformative experience, driving change and
-                              exploring opportunities in the crypto universe.
+                              We will give away nfts, and ethereum, and have
+                              engagement competitions
                             </Typography>
                           </Box>
                         </div>
-                      </li> */}
+                      </li>
                     </ul>
                   </section>
                 </div>
