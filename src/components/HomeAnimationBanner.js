@@ -471,7 +471,7 @@ const SectionSecoundBannerBox = {
   // boxShadow: "0px 0px 30px 0px red",
   display: "flex",
   flexDirection: { xs: "column", lg: "row" },
-  p: "41px 40px 36px 45px",
+  p: { xs: "41px 20px 36px 20px", md: "41px 40px 36px 45px" },
   "& h2": {
     color: "#fff",
     lineHeight: "26px",
@@ -609,7 +609,10 @@ const HomeAnimationBanner = () => {
               </Typography>
               <Typography
                 component={"p"}
-                sx={{ textAlign: "center", color: "white" }}
+                sx={{
+                  textAlign: { xs: "justify", md: "center" },
+                  color: "white",
+                }}
               >
                 GALAXY PALS, is a collection of 6,000 NFTs aiming to establish a
                 leading community. Positioned on the moon's dark side, we

@@ -118,6 +118,24 @@ const Footer = () => {
               </Grid>
               <Grid item xs={12} sm={4} lg={2}>
                 <Box sx={MenuWrapper}>
+                  {/* <Typography component={"p"}>
+                    <Typography component={"a"} href={"#Contact"}>
+                      Contact us
+                    </Typography>
+                  </Typography> */}
+                  {/* <Typography component={"p"}>
+                    <Typography
+                      component={"a"}
+                      href={"https://goo.gl/maps/kR5FaUEmAaxNuy227"}
+                      target="_blank"
+                    >
+                      Digital Ventures Group 14 Wall street Manhattan NY 10005{" "}
+                    </Typography>
+                  </Typography> */}
+                </Box>
+              </Grid>
+              <Grid item xs={12} sm={4} lg={2}>
+                <Box sx={MenuWrapper}>
                   <Typography component={"p"}>
                     <Typography component={"a"} href={"#About"}>
                       {" "}
@@ -147,24 +165,7 @@ const Footer = () => {
                   </Typography> */}
                 </Box>
               </Grid>
-              <Grid item xs={12} sm={4} lg={2}>
-                <Box sx={MenuWrapper}>
-                  <Typography component={"p"}>
-                    <Typography component={"a"} href={"#Contact"}>
-                      Contact us
-                    </Typography>
-                  </Typography>
-                  {/* <Typography component={"p"}>
-                    <Typography
-                      component={"a"}
-                      href={"https://goo.gl/maps/kR5FaUEmAaxNuy227"}
-                      target="_blank"
-                    >
-                      Digital Ventures Group 14 Wall street Manhattan NY 10005{" "}
-                    </Typography>
-                  </Typography> */}
-                </Box>
-              </Grid>
+
               <Grid item xs={12} sm={4} lg={2}>
                 <Box sx={MenuWrapper} className="fourthColumn">
                   <Typography component={"p"}>
