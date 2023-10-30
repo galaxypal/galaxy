@@ -616,7 +616,13 @@ const HomeAnimationBanner = () => {
                 <Typography component={"P"}>
                   MINT DATE : SOONER THAN YOU THINK
                 </Typography>
-                <Button>MINT</Button>
+                <Typography
+                  component={"a"}
+                  href="https://zealy.io/c/galaxy-0829/invite/oRrAOL-d2v3fI1mHjTNSs"
+                  target="_blank"
+                >
+                  <Button>GET WL BUTTON</Button>
+                </Typography>
               </Box>
             </Box>
             <Box sx={SectionSecoundBannerBox}>
