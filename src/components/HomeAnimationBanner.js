@@ -621,7 +621,7 @@ const HomeAnimationBanner = () => {
                   href="https://zealy.io/c/galaxy-0829/invite/oRrAOL-d2v3fI1mHjTNSs"
                   target="_blank"
                 >
-                  <Button>GET WL BUTTON</Button>
+                  <Button>GET WL</Button>
                 </Typography>
               </Box>
             </Box>
