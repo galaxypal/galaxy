@@ -230,7 +230,7 @@ const MintyLatestNews = () => {
                   <Typography
                     sx={{ borderRadius: "50%" }}
                     component={"img"}
-                    src={teamThree.src}
+                    src={teamFour.src}
                     alt=""
                   />
                   <Typography component={"p"} className="planet_hero">
@@ -247,7 +247,7 @@ const MintyLatestNews = () => {
                   </Typography>
                 </Box>
               </Grid>
-              <Grid item xs={12} md={4}>
+              {/* <Grid item xs={12} md={4}>
                 <Box sx={TheTrailerServices}>
                   <Typography
                     sx={{ borderRadius: "50%" }}
@@ -263,17 +263,10 @@ const MintyLatestNews = () => {
                     className="save_planet"
                   >
                     @Swiftalph4
-                    {/* <br />
-                    <Typography
-                      component={"span"}
-                      sx={{ fontSize: "16px", color: "white" }}
-                    >
-                      {" "}
-                      Member 3 Designation
-                    </Typography> */}
+                    
                   </Typography>
                 </Box>
-              </Grid>
+              </Grid> */}
               <Grid item xs={12} md={4}>
                 <Box sx={TheTrailerServices}>
                   <Typography
