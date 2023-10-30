@@ -1,6 +1,6 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NftImg from "../images/MissionStatementOne.png";
+import NftImg from "../images/Nftimggif.gif";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -9,7 +9,7 @@ const SectionWrapper = {
   position: "relative",
   display: "flex",
   alignItems: "center",
-  mt: { xs: "90px", sm: "90px", md: "90px", lg: "90px" },
+  mt: { xs: "90px", sm: "90px", md: "90px", lg: "252px" },
   "& .BackShap": {
     boxShadow: "0px 7px 20px rgba(0, 0, 0, 0.4)",
     borderRadius: { xs: "0", lg: "0px 65px 65px 0px" },
@@ -120,21 +120,21 @@ const MissionStatementOne = () => {
                   </Typography>
 
                   <Typography component={"p"}>
-                    Welcome to the Galactic Pals, where we merge the art of
-                    trading with detective-like market analysis to create a
-                    powerhouse community. Our primary focus is empowering
-                    members to achieve financial prosperity through informed
-                    trading decisions, backed by exclusive signals from a trader
-                    with over 300% monthly returns and our usage of advanced
-                    AI-driven crypto analysis.
+                    Welcome to Galactic Pals, a unique community where the art
+                    of trading seamlessly intertwines with the world of NFTs,
+                    creating a powerhouse of opportunity and growth. Our primary
+                    focus is empowering members to achieve financial prosperity
+                    through informed trading decisions, backed by exclusive
+                    signals from a trader with over 300% monthly returns and our
+                    usage of advanced AI-driven crypto analysis.
                   </Typography>
                   <Typography component={"p"}>
-                    We pride ourselves on being trading detectives, adept at
-                    navigating market manipulations and profiting from
-                    anomalies. Our technical analysis expertise transforms us
-                    into market maestros, trading with the precision of market
-                    makers.As we navigate the crypto world's complexities, we
-                    also embark on thrilling side quests.
+                    We are adept at navigating market manipulations and
+                    profiting from anomalies, with our technical analysis
+                    expertise transforming us into market maestros, trading with
+                    the precision of market makers. As we navigate the crypto
+                    world's complexities, we also embark on thrilling side
+                    quests, further enriching our community experience.
                   </Typography>
                 </Box>
               </Grid>

@@ -85,7 +85,7 @@ const FAQ = () => {
   return (
     <>
       <Box component={"section"} sx={SectionWrapper} id="FAQ">
-        {/* <Container>
+        <Container>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2} sx={{ mt: "30px" }}>
               <Grid item xs={12} md={6}>
@@ -111,21 +111,12 @@ const FAQ = () => {
                       id="panel1a-header"
                       className="AccordionHeader"
                     >
-                      <Typography>What is Lorem Ipsum?</Typography>
+                      <Typography>Is Opensea gonna delete it?</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">
                       <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
+                        No because some of our team is not in Iran and they will
+                        do it<br></br> We never DM you first.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -140,21 +131,12 @@ const FAQ = () => {
                       id="panel1a-header"
                       className="AccordionHeader"
                     >
-                      <Typography>What is Lorem Ipsum?</Typography>
+                      <Typography>Will we do other NFTs?</Typography>
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">
                       <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
+                        1-2 more but no more. <br></br>Each NFT is a share of
+                        the company.
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -169,21 +151,13 @@ const FAQ = () => {
                       id="panel1a-header"
                       className="AccordionHeader"
                     >
-                      <Typography>What is Lorem Ipsum?</Typography>
+                      <Typography>
+                        Should we sell our car and buy your nft?
+                      </Typography>
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">
                       <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
+                        No just buy it if you have extra money
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -198,82 +172,15 @@ const FAQ = () => {
                       id="panel1a-header"
                       className="AccordionHeader"
                     >
-                      <Typography>What is Lorem Ipsum?</Typography>
+                      <Typography>
+                        If I buy more will I have more gas?
+                      </Typography>
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">
-                      <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
-                      </Typography>
+                      <Typography>No you pay that once</Typography>
                     </AccordionDetails>
                   </Accordion>
-                  <Accordion
-                    className="AccordianInnerWrapper"
-                    expanded={expanded === "panel5"}
-                    onChange={handleChange("panel5")}
-                  >
-                    <AccordionSummary
-                      expandIcon={<FAQIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                      className="AccordionHeader"
-                    >
-                      <Typography>What is Lorem Ipsum?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className="AccordionBody">
-                      <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
-                  <Accordion
-                    className="AccordianInnerWrapper"
-                    expanded={expanded === "panel6"}
-                    onChange={handleChange("panel6")}
-                  >
-                    <AccordionSummary
-                      expandIcon={<FAQIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                      className="AccordionHeader"
-                    >
-                      <Typography>What is Lorem Ipsum?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className="AccordionBody">
-                      <Typography>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the industrys
-                        standard dummy text ever since the 1500s, when an
-                        unknown printer took a galley of type and scrambled it
-                        to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic
-                        typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset
-                        sheets containing Lorem Ipsum passages, and more
-                        recently with desktop publishing software like Aldus
-                        PageMaker including versions of Lorem Ipsum.
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion>
+
                   <Typography
                     className="JoinChannelDescription"
                     component={"p"}
@@ -287,7 +194,7 @@ const FAQ = () => {
               </Grid>
             </Grid>
           </Box>
-        </Container> */}
+        </Container>
         <Footer />
       </Box>
     </>
