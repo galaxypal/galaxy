@@ -14,7 +14,7 @@ const SectionWrapper = {
     backgroundImage: `linear-gradient(180deg, #180f399c 0%, #0e090b9e 80%), url(${BannerImg.src})`,
   },
   "@media screen and (max-width: 600px)": {
-    height: "145vh",
+    height: "240vh",
   },
   html: { background: "#111", overflow: "hidden" },
   // overflow: "hidden",
