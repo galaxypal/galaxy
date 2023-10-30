@@ -327,7 +327,7 @@ const TimelineWrapper = {
       position: "absolute",
       right: "-18px",
       top: "-25px",
-      backgroundColor: "#FFFF00",
+      backgroundColor: "#d5392f",
       padding: "10px 60px 5px",
       borderRadius: "50px",
       boxShadow: "0px 4px 4px 0px #00000040",
@@ -531,7 +531,7 @@ const Partner = () => {
                               Metaverse Collaboration and Trading Mastery
                             </Typography>
                             <Typography component={"p"}>
-                              Partnership with Aiden Metaverse and other
+                              Partnership with aeddon Metaverse and other
                               prominent projects to host team gatherings, where
                               we disclose market insights, strategize on
                               trading, and collaboratively work on side quests.

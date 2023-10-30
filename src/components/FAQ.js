@@ -135,8 +135,7 @@ const FAQ = () => {
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">
                       <Typography>
-                        1-2 more but no more. <br></br>Each NFT is a share of
-                        the company.
+                        one or 2 more projects that you will absolutely love
                       </Typography>
                     </AccordionDetails>
                   </Accordion>
@@ -173,7 +172,7 @@ const FAQ = () => {
                       className="AccordionHeader"
                     >
                       <Typography>
-                        If I buy more will I have more gas?
+                        If i buy more will i have to pay more gas
                       </Typography>
                     </AccordionSummary>
                     <AccordionDetails className="AccordionBody">

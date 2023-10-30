@@ -29,7 +29,7 @@ export default function Home() {
         {/* <TabLetestNews value={value} setValue={setValue} /> */}
         <MissionStatementOne />
         <MissionStatementTwo />
-        <NftSection />
+        {/* <NftSection /> */}
         <StarrySky />
         <MintyLatestNews />
         <FAQ />

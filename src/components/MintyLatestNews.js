@@ -235,7 +235,7 @@ const MintyLatestNews = () => {
                   />
                   <Typography component={"p"} className="planet_hero">
                     {" "}
-                    @growthhacks
+                    @arvinknft
                     {/* <br />
                     <Typography
                       component={"span"}

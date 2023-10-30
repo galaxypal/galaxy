@@ -198,10 +198,18 @@ const Footer = () => {
                 <Box sx={SocialWrapper}>
                   <Typography component={"p"}>COMMUNITY</Typography>
                   <Box className="SocialMediaWrapper">
-                    <Typography component={"a"} href="#" target="_blank">
+                    <Typography
+                      component={"a"}
+                      href="https://twitter.com/GalaxyPals"
+                      target="_blank"
+                    >
                       <Typography component={"img"} src={twitter.src} alt="" />
                     </Typography>
-                    <Typography component={"a"} href="#" target="_blank">
+                    <Typography
+                      component={"a"}
+                      href="https://t.me/+nGvqvVz4V4g4ZDdh"
+                      target="_blank"
+                    >
                       <Typography component={"img"} src={Telegram.src} alt="" />
                     </Typography>
                     <Typography component={"a"} href="#" target="_blank">
@@ -211,7 +219,11 @@ const Footer = () => {
                         alt=""
                       />
                     </Typography>
-                    <Typography component={"a"} href="#" target="_blank">
+                    <Typography
+                      component={"a"}
+                      href="https://discord.gg/Ytceg82Ujs"
+                      target="_blank"
+                    >
                       <Typography
                         component={"img"}
                         src={DiscordSocial.src}
