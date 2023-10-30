@@ -351,7 +351,7 @@ const TimelineWrapper = {
     "@media screen and (max-width:820px)": { top: "0" },
   },
   "& .fourth_content": {
-    top: "-320px",
+    top: "-275px",
     "@media screen and (max-width:820px)": { top: "0" },
     "& button": {
       left: "-18px",
@@ -496,6 +496,7 @@ const Partner = () => {
                           </Box>
                         </div>
                       </li>
+
                       <li className="TimeLineBoxList second_content">
                         <div className="content ">
                           <Button sx={{}}>Phase 2</Button>
@@ -514,6 +515,18 @@ const Partner = () => {
                         <div className="content ContentThird">
                           <Button sx={{}}>Phase 3</Button>
                           <Box sx={listWrapper}>
+                            <Typography component={"h3"}>Airdrops</Typography>
+                            <Typography component={"p"}>
+                              We will give away nfts, and ethereum, and have
+                              engagement competitions
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList fourth_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 4</Button>
+                          <Box sx={listWrapper}>
                             <Typography component={"h3"}>
                               Metaverse Collaboration and Trading Mastery
                             </Typography>
@@ -531,9 +544,9 @@ const Partner = () => {
                           </Box>
                         </div>
                       </li>
-                      <li className="TimeLineBoxList fourth_content">
+                      <li className="TimeLineBoxList fifth_content">
                         <div className="content ">
-                          <Button sx={{}}>Phase 4</Button>
+                          <Button sx={{}}>Phase 5</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
                               GALAXY PALS Auctions and Community Events
@@ -551,9 +564,9 @@ const Partner = () => {
                           </Box>
                         </div>
                       </li>
-                      <li className="TimeLineBoxList fifth_content">
+                      <li className="TimeLineBoxList sixth_content">
                         <div className="content ">
-                          <Button sx={{}}>Phase 5</Button>
+                          <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
                             {/* <Typography component={"h3"}>
                               Sustainability and Community Governance
@@ -563,18 +576,6 @@ const Partner = () => {
                               a play-to-earn game or launching a meme coin,
                               further expanding our community's engagement and
                               impact.
-                            </Typography>
-                          </Box>
-                        </div>
-                      </li>
-                      <li className="TimeLineBoxList sixth_content">
-                        <div className="content ">
-                          <Button sx={{}}>Phase 6</Button>
-                          <Box sx={listWrapper}>
-                            <Typography component={"h3"}>Airdrops</Typography>
-                            <Typography component={"p"}>
-                              We will give away nfts, and ethereum, and have
-                              engagement competitions
                             </Typography>
                           </Box>
                         </div>
