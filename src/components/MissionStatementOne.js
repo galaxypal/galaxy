@@ -9,7 +9,7 @@ const SectionWrapper = {
   position: "relative",
   display: "flex",
   alignItems: "center",
-  mt: { xs: "90px", sm: "90px", md: "90px", lg: "252px" },
+  mt: { xs: "90px", sm: "90px", md: "90px", lg: "100px" },
   "& .BackShap": {
     boxShadow: "0px 7px 20px rgba(0, 0, 0, 0.4)",
     borderRadius: { xs: "0", lg: "0px 65px 65px 0px" },
