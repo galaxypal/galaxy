@@ -608,18 +608,38 @@ const HomeAnimationBanner = () => {
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
                 GALAXY PALS
               </Typography>
-              <Typography
-                component={"p"}
-                sx={{
-                  textAlign: { xs: "justify", md: "center" },
-                  color: "white",
-                }}
-              >
-                The name 'GALAXY PALS' perfectly encapsulates our essence,
-                representing not just a collection, but a flourishing community
-                of traders and companions, united and thriving together on the
-                lunar frontier.
-              </Typography>
+              <Box>
+                <Typography
+                  component={"p"}
+                  sx={{
+                    textAlign: { xs: "justify", md: "center" },
+                    color: "white",
+                    mb: "10px",
+                  }}
+                >
+                  GALAXY PALS, is a collection of 6,000 unique and randomly
+                  generated NFTs aiming to establish a leading community.
+                  Positioned on the moon's dark side, we leverage the
+                  transformative power of Web 3.0 to create a collaborative
+                  trading environment. Members, as NFT holders, play a crucial
+                  role in this decentralized initiative, engaging in governance,
+                  supporting causes. From engaging giveaways and bonus NFT
+                  claims to thrilling airdrops, we ensure your experience with
+                  Galaxy Pals is both rewarding and full of surprises.
+                </Typography>
+                <Typography
+                  component={"p"}
+                  sx={{
+                    textAlign: { xs: "justify", md: "center" },
+                    color: "white",
+                  }}
+                >
+                  The name 'GALAXY PALS' perfectly encapsulates our essence,
+                  representing not just a collection, but a flourishing
+                  community of traders and companions, united and thriving
+                  together on the lunar frontier.
+                </Typography>
+              </Box>
             </Box>
           </div>
           <div id="star1"> </div>
