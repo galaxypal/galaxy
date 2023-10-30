@@ -14,8 +14,23 @@ const SectionWrapper = {
     backgroundImage: `linear-gradient(180deg, #180f399c 0%, #0e090b9e 80%), url(${BannerImg.src})`,
   },
   "@media screen and (max-width: 600px)": {
-    height: "240vh",
+    height: "165vh",
   },
+  "@media screen and (max-width: 395px)": {
+    height: "185vh",
+  },
+  "@media screen and (max-width: 380px)": {
+    height: "235vh",
+  },
+  "@media screen and (max-width: 365px)": {
+    height: "225vh",
+  },
+  "@media screen and (max-width: 285px)": {
+    height: "320vh",
+  },
+  // "@media screen and (max-height: 645px)": {
+  //   height: "260vh",
+  // },
   html: { background: "#111", overflow: "hidden" },
   // overflow: "hidden",
   ".dialog": {
