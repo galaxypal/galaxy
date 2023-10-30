@@ -72,7 +72,9 @@ const AccordionWrapper = {
   "& .JoinChannelDescription": {
     color: "#fff",
     textAlign: "right",
-    "& span": { color: "#FFFF00", fontWeight: 700 },
+    "& span": {
+      "& a": { color: "#FFFF00", fontWeight: 700, textDecoration: "none" },
+    },
   },
 };
 
@@ -186,7 +188,13 @@ const FAQ = () => {
                   >
                     Still curious?{" "}
                     <Typography component={"span"}>
-                      Join our channel and fire away!
+                      <Typography
+                        component={"a"}
+                        href="https://t.me/+nGvqvVz4V4g4ZDdh"
+                        target="_blank"
+                      >
+                        Join our channel and fire away!
+                      </Typography>
                     </Typography>
                   </Typography>
                 </Box>
