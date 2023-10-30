@@ -145,7 +145,10 @@ const MissionStatementTwo = () => {
                     commitment to uncovering market truths and mastering the art
                     of trading.Join us at Galactic Pals, where trading
                     excellence meets market mastery, and together, we redefine
-                    the realms of financial freedom.
+                    the realms of financial freedom. We are immensely excited
+                    about this investigation and invite you to follow us on
+                    Twitter to stay updated on all the latest developments! STAY
+                    TUNED!
                   </Typography>
                 </Box>
               </Grid>

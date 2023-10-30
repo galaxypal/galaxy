@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Box, Button, Typography } from "@mui/material";
-import BannerImg from "../images/BannerBgNewImage.png";
+import BannerImg from "../images/Bannerbgimagupdated.png";
 import Logo from "../images/WhiteLogo.png";
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
@@ -595,7 +595,8 @@ const HomeAnimationBanner = () => {
               <Typography component={"img"} src={Logo.src} alt="" />
               <Box className="InnerBox">
                 <Typography component={"h3"}>
-                  HI GUYS, WELCOME TO GALAXY PALS
+                  HI GUYS, WELCOME TO GALAXY PALS a stellar NFT and trading
+                  community
                 </Typography>
                 <Typography component={"P"}>
                   MINT DATE : SOONER THAN YOU THINK
@@ -614,13 +615,15 @@ const HomeAnimationBanner = () => {
                   color: "white",
                 }}
               >
-                GALAXY PALS, is a collection of 6,000 NFTs aiming to establish a
-                leading community. Positioned on the moon's dark side, we
-                leverage the transformative power of Web 3.0 to create a
-                collaborative trading environment. Members, as NFT holders, play
-                a crucial role in this decentralized initiative, engaging in
-                governance, supporting causes, and enjoying a premium digital
-                community experience.
+                GALAXY PALS, is a collection of 6,000 unique and randomly
+                generated NFTs aiming to establish a leading community.
+                Positioned on the moon's dark side, we leverage the
+                transformative power of Web 3.0 to create a collaborative
+                trading environment. Members, as NFT holders, play a crucial
+                role in this decentralized initiative, engaging in governance,
+                supporting causes. From engaging giveaways and bonus NFT claims
+                to thrilling airdrops, we ensure your experience with Galaxy
+                Pals is both rewarding and full of surprises.
               </Typography>
             </Box>
           </div>

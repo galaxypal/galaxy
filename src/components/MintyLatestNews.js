@@ -11,6 +11,8 @@ import {
 import team from "../images/Nft-1.png";
 import teamThree from "../images/Nft-7.png";
 import teamFour from "../images/Nft-8.png";
+import TradersPOV from "../images/Nft-6.png";
+import AmooHosseinYT from "../images/Nft-4.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -233,7 +235,7 @@ const MintyLatestNews = () => {
                   />
                   <Typography component={"p"} className="planet_hero">
                     {" "}
-                    @growthHackz
+                    @growthhacks
                     {/* <br />
                     <Typography
                       component={"span"}
@@ -260,7 +262,61 @@ const MintyLatestNews = () => {
                     component={"p"}
                     className="save_planet"
                   >
-                    @SWIFT
+                    @Swiftalph4
+                    {/* <br />
+                    <Typography
+                      component={"span"}
+                      sx={{ fontSize: "16px", color: "white" }}
+                    >
+                      {" "}
+                      Member 3 Designation
+                    </Typography> */}
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <Box sx={TheTrailerServices}>
+                  <Typography
+                    sx={{ borderRadius: "50%" }}
+                    className="ecoBattery"
+                    component={"img"}
+                    src={TradersPOV.src}
+                    alt=""
+                  />
+
+                  <Typography
+                    sx={{ color: "#ffff" }}
+                    component={"p"}
+                    className="save_planet"
+                  >
+                    @TradersPOV
+                    {/* <br />
+                    <Typography
+                      component={"span"}
+                      sx={{ fontSize: "16px", color: "white" }}
+                    >
+                      {" "}
+                      Member 3 Designation
+                    </Typography> */}
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <Box sx={TheTrailerServices}>
+                  <Typography
+                    sx={{ borderRadius: "50%" }}
+                    className="ecoBattery"
+                    component={"img"}
+                    src={AmooHosseinYT.src}
+                    alt=""
+                  />
+
+                  <Typography
+                    sx={{ color: "#ffff" }}
+                    component={"p"}
+                    className="save_planet"
+                  >
+                    @AmooHosseinYT
                     {/* <br />
                     <Typography
                       component={"span"}
