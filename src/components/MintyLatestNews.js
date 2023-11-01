@@ -134,6 +134,7 @@ const TheTrailerServices = {
     fontSize: "32px",
     fontFamily: "Vividly!important",
     fontWeight: "100",
+    lineHeight: "1.1",
   },
   "& .emissions": {
     color: " #004BBF",
@@ -144,6 +145,7 @@ const TheTrailerServices = {
     fontSize: "32px",
     fontFamily: "Vividly!important",
     fontWeight: "100",
+    lineHeight: "1.1",
   },
   "& p": {
     color: "#B76229",
@@ -214,14 +216,14 @@ const MintyLatestNews = () => {
                   >
                     {" "}
                     @mina_monk
-                    {/* <br />
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      Member 1 Designation
-                    </Typography> */}
+                      Blockchain and art manager
+                    </Typography>
                   </Typography>
                 </Box>
               </Grid>
@@ -236,14 +238,14 @@ const MintyLatestNews = () => {
                   <Typography component={"p"} className="planet_hero">
                     {" "}
                     @arvinknft
-                    {/* <br />
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      Member 2 Designation
-                    </Typography> */}
+                      Web 3.0 Tech Guru
+                    </Typography>
                   </Typography>
                 </Box>
               </Grid>
@@ -283,14 +285,14 @@ const MintyLatestNews = () => {
                     className="save_planet"
                   >
                     @TradersPOV
-                    {/* <br />
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      Member 3 Designation
-                    </Typography> */}
+                      Trading Wizard
+                    </Typography>
                   </Typography>
                 </Box>
               </Grid>
@@ -310,14 +312,14 @@ const MintyLatestNews = () => {
                     className="save_planet"
                   >
                     @AmooHosseinYT
-                    {/* <br />
+                    <br />
                     <Typography
                       component={"span"}
                       sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      Member 3 Designation
-                    </Typography> */}
+                      Community Engagement Expert
+                    </Typography>
                   </Typography>
                 </Box>
               </Grid>
