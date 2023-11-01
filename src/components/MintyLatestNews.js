@@ -244,7 +244,7 @@ const MintyLatestNews = () => {
                       sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      Web 3.0 Tech Guru
+                      Web3 Growth hacker
                     </Typography>
                   </Typography>
                 </Box>

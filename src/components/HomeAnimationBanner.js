@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Box, Button, Typography } from "@mui/material";
-import BannerImg from "../images/Bannerbgimagupdated.png";
+// import BannerImg from "../images/Bannerbgimagupdated.png";
+import BannerImg from "../images/BgBannerNew.png";
 import Logo from "../images/WhiteLogo.png";
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
