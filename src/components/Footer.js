@@ -207,7 +207,7 @@ const Footer = () => {
                     </Typography>
                     <Typography
                       component={"a"}
-                      href="https://t.me/+nGvqvVz4V4g4ZDdh"
+                      href="https://t.me/galaxypals"
                       target="_blank"
                     >
                       <Typography component={"img"} src={Telegram.src} alt="" />
