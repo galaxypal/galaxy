@@ -15,19 +15,19 @@ const SectionWrapper = {
     backgroundImage: `linear-gradient(180deg, #180f399c 0%, #0e090b9e 80%), url(${BannerImg.src})`,
   },
   "@media screen and (max-width: 600px)": {
-    height: "165vh",
+    height: "100vh",
   },
   "@media screen and (max-width: 395px)": {
-    height: "185vh",
+    height: "110vh",
   },
   "@media screen and (max-width: 380px)": {
-    height: "235vh",
+    height: "140vh",
   },
   "@media screen and (max-width: 365px)": {
-    height: "225vh",
+    height: "130vh",
   },
   "@media screen and (max-width: 285px)": {
-    height: "320vh",
+    height: "168vh",
   },
   // "@media screen and (max-height: 645px)": {
   //   height: "260vh",
@@ -655,7 +655,7 @@ const HomeAnimationBanner = () => {
                 <Typography
                   component={"p"}
                   sx={{
-                    textAlign: { xs: "justify", md: "center" },
+                    textAlign: { xs: "center", md: "center" },
                     color: "white",
                   }}
                 >
