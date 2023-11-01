@@ -336,7 +336,7 @@ const SectionWrapper = {
     display: "flex",
     position: "relative",
     "@media screen and (min-width: 1800px)": {
-      height: "50vh",
+      height: "90vh",
     },
     "@media screen and (max-width: 1025px)": {
       height: "55vh",
