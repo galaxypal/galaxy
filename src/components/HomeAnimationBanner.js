@@ -335,6 +335,9 @@ const SectionWrapper = {
     backgroundSize: "cover",
     display: "flex",
     position: "relative",
+    // "@media screen and (min-width: 1200px)": {
+    //   height: "150vh",
+    // },
     "@media screen and (min-width: 1800px)": {
       height: "90vh",
     },
@@ -619,7 +622,7 @@ const HomeAnimationBanner = () => {
                 </Typography>
                 <Typography
                   component={"a"}
-                  href="https://zealy.io/c/galaxy-0829/invite/oRrAOL-d2v3fI1mHjTNSs"
+                  href="https://zealy.io/c/galaxypals/"
                   target="_blank"
                 >
                   <Button>GET WL</Button>

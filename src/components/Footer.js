@@ -221,7 +221,7 @@ const Footer = () => {
                     </Typography>
                     <Typography
                       component={"a"}
-                      href="https://discord.gg/Ytceg82Ujs"
+                      href=" https://discord.gg/galaxypals"
                       target="_blank"
                     >
                       <Typography
