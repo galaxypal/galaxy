@@ -634,7 +634,7 @@ const HomeAnimationBanner = () => {
                 GALAXY PALS
               </Typography>
               <Box>
-                <Typography
+                {/* <Typography
                   component={"p"}
                   sx={{
                     textAlign: { xs: "justify", md: "center" },
@@ -651,7 +651,7 @@ const HomeAnimationBanner = () => {
                   supporting causes. From engaging giveaways and bonus NFT
                   claims to thrilling airdrops, we ensure your experience with
                   Galaxy Pals is both rewarding and full of surprises.
-                </Typography>
+                </Typography> */}
                 <Typography
                   component={"p"}
                   sx={{
