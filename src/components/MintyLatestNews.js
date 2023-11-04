@@ -258,7 +258,7 @@ const MintyLatestNews = () => {
                   </Box>
                 </Typography>
               </Grid>
-              <Grid item xs={12} md={4}>
+              {/* <Grid item xs={12} md={4}>
                 <Typography
                   component={"a"}
                   href="https://twitter.com/_ldzma?lang=en"
@@ -282,7 +282,7 @@ const MintyLatestNews = () => {
                     </Typography>
                   </Box>
                 </Typography>
-              </Grid>
+              </Grid> */}
               <Grid item xs={12} md={4}>
                 <Typography
                   component={"a"}
