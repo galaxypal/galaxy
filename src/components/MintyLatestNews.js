@@ -255,7 +255,7 @@ const MintyLatestNews = () => {
                     sx={{ borderRadius: "50%" }}
                     className="ecoBattery"
                     component={"img"}
-                    src={teamFour.src}
+                    src={teamThree.src}
                     alt=""
                   />
 
