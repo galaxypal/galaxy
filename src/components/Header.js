@@ -31,6 +31,7 @@ const DeskMenu = {
     textDecoration: "none",
     textShadow:
       "0 0 5px #00FF00,0 0 10px #00FF00,0 0 15px #00FF00,0 0 20px #00FF00,0 0 25px #00FF00,0 0 30px #00FF00",
+    fontSize: "24px",
   },
 
   "&:nth-of-type(1)": {
@@ -140,7 +141,7 @@ const Header = ({ setValue }) => {
           position: "relative",
           zIndex: "99999999999999",
           overflow: "hidden",
-          mb: "-60px",
+          mb: "-68px",
         }}
       >
         <Container maxWidth="xl">

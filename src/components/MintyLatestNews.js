@@ -199,128 +199,155 @@ const MintyLatestNews = () => {
                 zIndex: "1",
                 mt: "0",
                 justifyContent: "center",
+                "& a": { textDecoration: "none" },
               }}
             >
               <Grid item xs={12} md={4}>
-                <Box sx={TheTrailerServices}>
-                  <Typography
-                    sx={{ borderRadius: "50%" }}
-                    component={"img"}
-                    src={team.src}
-                    alt=""
-                  />
-                  <Typography
-                    sx={{ color: "#ffff" }}
-                    component={"p"}
-                    className="planet_hero"
-                  >
-                    {" "}
-                    @mina_monk
-                    <br />
+                <Typography component={"a"} href="" target="_blank">
+                  <Box sx={TheTrailerServices}>
                     <Typography
-                      component={"span"}
-                      sx={{ fontSize: "16px", color: "white" }}
+                      sx={{ borderRadius: "50%" }}
+                      component={"img"}
+                      src={team.src}
+                      alt=""
+                    />
+                    <Typography
+                      sx={{ color: "#ffff" }}
+                      component={"p"}
+                      className="planet_hero"
                     >
                       {" "}
-                      Blockchain and art manager
+                      @mina_monk
+                      <br />
+                      <Typography
+                        component={"span"}
+                        sx={{ fontSize: "16px", color: "white" }}
+                      >
+                        {" "}
+                        Blockchain and art manager
+                      </Typography>
                     </Typography>
-                  </Typography>
-                </Box>
+                  </Box>
+                </Typography>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Box sx={TheTrailerServices}>
-                  <Typography
-                    sx={{ borderRadius: "50%" }}
-                    component={"img"}
-                    src={teamFour.src}
-                    alt=""
-                  />
-                  <Typography component={"p"} className="planet_hero">
-                    {" "}
-                    @arvinknft
-                    <br />
+                <Typography
+                  component={"a"}
+                  href="https://twitter.com/arvinknft?s=21"
+                  target="_blank"
+                >
+                  <Box sx={TheTrailerServices}>
                     <Typography
-                      component={"span"}
-                      sx={{ fontSize: "16px", color: "white" }}
-                    >
+                      sx={{ borderRadius: "50%" }}
+                      component={"img"}
+                      src={teamFour.src}
+                      alt=""
+                    />
+                    <Typography component={"p"} className="planet_hero">
                       {" "}
-                      Web3 Growth hacker
+                      @arvinknft
+                      <br />
+                      <Typography
+                        component={"span"}
+                        sx={{ fontSize: "16px", color: "white" }}
+                      >
+                        {" "}
+                        Web3 Growth hacker
+                      </Typography>
                     </Typography>
-                  </Typography>
-                </Box>
+                  </Box>
+                </Typography>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Box sx={TheTrailerServices}>
-                  <Typography
-                    sx={{ borderRadius: "50%" }}
-                    className="ecoBattery"
-                    component={"img"}
-                    src={teamThree.src}
-                    alt=""
-                  />
+                <Typography
+                  component={"a"}
+                  href="https://twitter.com/_ldzma?lang=en"
+                  target="_blank"
+                >
+                  <Box sx={TheTrailerServices}>
+                    <Typography
+                      sx={{ borderRadius: "50%" }}
+                      className="ecoBattery"
+                      component={"img"}
+                      src={teamThree.src}
+                      alt=""
+                    />
 
-                  <Typography
-                    sx={{ color: "#ffff" }}
-                    component={"p"}
-                    className="save_planet"
-                  >
-                    @MAIN ARTIST
-                  </Typography>
-                </Box>
+                    <Typography
+                      sx={{ color: "#ffff" }}
+                      component={"p"}
+                      className="save_planet"
+                    >
+                      @MAIN ARTIST
+                    </Typography>
+                  </Box>
+                </Typography>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Box sx={TheTrailerServices}>
-                  <Typography
-                    sx={{ borderRadius: "50%" }}
-                    className="ecoBattery"
-                    component={"img"}
-                    src={TradersPOV.src}
-                    alt=""
-                  />
-
-                  <Typography
-                    sx={{ color: "#ffff" }}
-                    component={"p"}
-                    className="save_planet"
-                  >
-                    @TradersPOV
-                    <br />
+                <Typography
+                  component={"a"}
+                  href="https://twitter.com/traderspov?s=21"
+                  target="_blank"
+                >
+                  <Box sx={TheTrailerServices}>
                     <Typography
-                      component={"span"}
-                      sx={{ fontSize: "16px", color: "white" }}
+                      sx={{ borderRadius: "50%" }}
+                      className="ecoBattery"
+                      component={"img"}
+                      src={TradersPOV.src}
+                      alt=""
+                    />
+
+                    <Typography
+                      sx={{ color: "#ffff" }}
+                      component={"p"}
+                      className="save_planet"
                     >
-                      {" "}
-                      Trading Wizard
+                      @TradersPOV
+                      <br />
+                      <Typography
+                        component={"span"}
+                        sx={{ fontSize: "16px", color: "white" }}
+                      >
+                        {" "}
+                        Trading Wizard
+                      </Typography>
                     </Typography>
-                  </Typography>
-                </Box>
+                  </Box>
+                </Typography>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Box sx={TheTrailerServices}>
-                  <Typography
-                    sx={{ borderRadius: "50%" }}
-                    className="ecoBattery"
-                    component={"img"}
-                    src={AmooHosseinYT.src}
-                    alt=""
-                  />
-
-                  <Typography
-                    sx={{ color: "#ffff" }}
-                    component={"p"}
-                    className="save_planet"
-                  >
-                    @AmooHosseinYT
-                    <br />
+                <Typography
+                  component={"a"}
+                  href="https://twitter.com/amoohosseinyt?s=21"
+                  target="_blank"
+                >
+                  <Box sx={TheTrailerServices}>
                     <Typography
-                      component={"span"}
-                      sx={{ fontSize: "16px", color: "white" }}
+                      sx={{ borderRadius: "50%" }}
+                      className="ecoBattery"
+                      component={"img"}
+                      src={AmooHosseinYT.src}
+                      alt=""
+                    />
+
+                    <Typography
+                      sx={{ color: "#ffff" }}
+                      component={"p"}
+                      className="save_planet"
                     >
-                      {" "}
-                      Community Engagement Expert
+                      @AmooHosseinYT
+                      <br />
+                      <Typography
+                        component={"span"}
+                        sx={{ fontSize: "16px", color: "white" }}
+                      >
+                        {" "}
+                        Community Engagement Expert
+                      </Typography>
                     </Typography>
-                  </Typography>
-                </Box>
+                  </Box>
+                </Typography>
               </Grid>
             </Grid>
             <Grid
