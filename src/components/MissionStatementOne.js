@@ -120,22 +120,21 @@ const MissionStatementOne = () => {
                   </Typography>
 
                   <Typography component={"p"}>
-                    Welcome to Galactic Pals, a unique community where the art
-                    of trading seamlessly intertwines with the world of NFTs,
-                    creating a powerhouse of opportunity and growth. Our primary
-                    focus is empowering members to achieve financial prosperity
-                    through informed trading decisions, backed by exclusive
-                    signals from a trader with over 300% monthly returns and our
-                    usage of advanced AI-driven crypto analysis.
+                    We get it, you want financial freedom– Galaxy Pals exists to
+                    provide NFT holders with trading signals and exclusive
+                    insights from top-tier traders. It's not just about owning
+                    digital art, Each NFT unlocks access to our community of
+                    traders, cool airdrops, and a bunch of pals all aiming to
+                    make a bank.
                   </Typography>
-                  <Typography component={"p"}>
+                  {/* <Typography component={"p"}>
                     We are adept at navigating market manipulations and
                     profiting from anomalies, with our technical analysis
                     expertise transforming us into market maestros, trading with
                     the precision of market makers. As we navigate the crypto
                     world's complexities, we also embark on thrilling side
                     quests, further enriching our community experience.
-                  </Typography>
+                  </Typography> */}
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>

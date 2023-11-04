@@ -614,8 +614,8 @@ const HomeAnimationBanner = () => {
               <Typography component={"img"} src={Logo.src} alt="" />
               <Box className="InnerBox">
                 <Typography component={"h3"}>
-                  HI GUYS, WELCOME TO GALAXY PALS a stellar NFT and trading
-                  community
+                  Treasure Hunt for Bitcoin's Architect, Trading alpha, and
+                  stellar airdrops
                 </Typography>
                 <Typography component={"P"}>
                   MINT DATE : SOONER THAN YOU THINK
@@ -629,12 +629,12 @@ const HomeAnimationBanner = () => {
                 </Typography>
               </Box>
             </Box>
-            <Box sx={SectionSecoundBannerBox}>
+            {/* <Box sx={SectionSecoundBannerBox}>
               <Typography component={"h2"} sx={{ textAlign: "center" }}>
                 GALAXY PALS
               </Typography>
               <Box>
-                {/* <Typography
+                <Typography
                   component={"p"}
                   sx={{
                     textAlign: { xs: "justify", md: "center" },
@@ -651,7 +651,7 @@ const HomeAnimationBanner = () => {
                   supporting causes. From engaging giveaways and bonus NFT
                   claims to thrilling airdrops, we ensure your experience with
                   Galaxy Pals is both rewarding and full of surprises.
-                </Typography> */}
+                </Typography>
                 <Typography
                   component={"p"}
                   sx={{
@@ -665,7 +665,7 @@ const HomeAnimationBanner = () => {
                   together on the lunar frontier.
                 </Typography>
               </Box>
-            </Box>
+            </Box> */}
           </div>
           <div id="star1"> </div>
           <div id="star2"> </div>
