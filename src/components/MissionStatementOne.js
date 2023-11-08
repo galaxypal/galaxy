@@ -119,7 +119,14 @@ const MissionStatementOne = () => {
                   <Typography component={"h3"}>
                     Trading Excellence and Market Mastery
                   </Typography>
-
+                  <Typography component={"p"}>
+                    We get it, you want financial freedom– Galaxy Pals exists to
+                    provide NFT holders with trading signals and exclusive
+                    insights from top-tier traders. It's not just about owning
+                    digital art, each NFT unlocks access to our community of
+                    traders, cool airdrops, and a bunch of pals all aiming to
+                    make a bank.
+                  </Typography>
                   <Typography component={"p"}>
                     To enhance your experience, We also handpick the sharpest
                     seasonal guest traders across the globe to beam their expert
