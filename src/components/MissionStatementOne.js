@@ -1,6 +1,7 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NftImg from "../images/Nftimggif.gif";
+// import NftImg from "../images/Nftimggif.gif";
+import NftImg from "../images/NftimgNew.gif";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -84,7 +85,7 @@ const MissionStatementOne = () => {
                       marginBottom: "20px",
                       lineHeight: 1,
                       fontFamily: "Vividly !important",
-                      textTransform: "uppercase",
+                      // textTransform: "uppercase",
                     },
                     "& button": {
                       background:
@@ -120,12 +121,13 @@ const MissionStatementOne = () => {
                   </Typography>
 
                   <Typography component={"p"}>
-                    We get it, you want financial freedom– Galaxy Pals exists to
-                    provide NFT holders with trading signals and exclusive
-                    insights from top-tier traders. It's not just about owning
-                    digital art, Each NFT unlocks access to our community of
-                    traders, cool airdrops, and a bunch of pals all aiming to
-                    make a bank.
+                    To enhance your experience, We also handpick the sharpest
+                    seasonal guest traders across the globe to beam their expert
+                    signals straight to you, with live market sessions, so you
+                    can learn from more traders. Our mission is to empower our
+                    members with sharp trading insights, provided by elite
+                    traders known for their market consistency, and enhanced by
+                    strategic AI-driven crypto analysis.
                   </Typography>
                   {/* <Typography component={"p"}>
                     We are adept at navigating market manipulations and

@@ -105,7 +105,7 @@ const MissionStatementTwo = () => {
                       marginBottom: "20px",
                       lineHeight: 1,
                       fontFamily: "Vividly !important",
-                      textTransform: "uppercase",
+                      // textTransform: "uppercase",
                     },
                     "& button": {
                       background:

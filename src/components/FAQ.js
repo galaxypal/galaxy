@@ -94,8 +94,9 @@ const FAQ = () => {
                 <Box sx={ContentWrapper}>
                   <Typography component={"h2"}>FAQ</Typography>
                   <Typography component={"p"}>
-                    Got questions? Weve got answers.
-                    <br /> Check out our FAQ section for all the info you need.
+                    {/* Got questions? Weve got answers.
+                    <br /> */}
+                    Check out our FAQ section for all the info you need.
                   </Typography>
                 </Box>
               </Grid>
@@ -118,7 +119,8 @@ const FAQ = () => {
                     <AccordionDetails className="AccordionBody">
                       <Typography>
                         No because some of our team is not in Iran and they will
-                        do it<br></br> We never DM you first.
+                        do it
+                        {/* <br></br> We never DM you first. */}
                       </Typography>
                     </AccordionDetails>
                   </Accordion>

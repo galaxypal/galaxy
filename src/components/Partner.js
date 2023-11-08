@@ -370,6 +370,10 @@ const TimelineWrapper = {
       width: "max-content",
     },
   },
+  "& .seventh_content": {
+    top: "-459px",
+    "@media screen and (max-width:820px)": { top: "0" },
+  },
 
   "& .timeline ul li.TimeLineBoxList .content p": { textAlign: "left" },
   "& .timeline ul li.TimeLineBoxList .content:before": {
@@ -473,7 +477,7 @@ const Partner = () => {
                 GALAXY PALS ROAD MAP
               </Typography>
             </Grid>
-            <Grid item xs={12} lg={12}>
+            {/* <Grid item xs={12} lg={12}>
               <Box sx={TimelineWrapper}>
                 <div className="timeline">
                   <section className="timeline">
@@ -568,9 +572,137 @@ const Partner = () => {
                         <div className="content ">
                           <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
+                            <Typography component={"p"}>
+                              Exploration of potential opportunities in creating
+                              a play-to-earn game or launching a meme coin,
+                              further expanding our community's engagement and
+                              impact.
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                    </ul>
+                  </section>
+                </div>
+              </Box>
+            </Grid> */}
+
+            <Grid item xs={12} lg={12}>
+              <Box sx={TimelineWrapper}>
+                <div className="timeline">
+                  <section className="timeline">
+                    <ul>
+                      <li className="TimeLineBoxList">
+                        <div className="content first_content">
+                          <Button sx={{}}>Phase 1</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>
+                              Presale and Community Building
+                            </Typography>
+                            <Typography component={"p"}>
+                              Exclusive presale access for whitelisted members.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Initiatives to foster community engagement and
+                              establish a strong foundation of trust and
+                              collaboration.
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+
+                      <li className="TimeLineBoxList second_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 2</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>
+                              Official Launch
+                            </Typography>
+                            <Typography component={"p"}>
+                              Release of the remaining 6,000 GALAXY PALS NFTs
+                              for public minting on the Ethereum blockchain
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList third_content">
+                        <div className="content ContentThird">
+                          <Button sx={{}}>Phase 3</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>Airdrops</Typography>
+                            <Typography component={"p"}>
+                              We will give away NFT’s, crypto, and have
+                              engagement competitions
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList fourth_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 4</Button>
+                          <Box sx={listWrapper}>
                             {/* <Typography component={"h3"}>
-                              Sustainability and Community Governance
+                              Metaverse Collaboration and Trading Mastery
                             </Typography> */}
+                            <Typography component={"p"}>
+                              Enhancement of our trading tools and resources,
+                              ensuring our community has the best possible
+                              advantages in the market.
+                            </Typography>
+                            <Typography component={"p"}>
+                              onboard seasonal traders
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList fifth_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 5</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>
+                              Metaverse Collaboration and Satoshi investigation
+                            </Typography>
+                            <Typography component={"p"}>
+                              Partnership with Aeddon Metaverse and other
+                              prominent projects to host team gatherings, where
+                              we disclose market insights, strategize on
+                              trading, and collaboratively Discuss side quest
+                              updates.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Enhancement of our trading tools, machine
+                              learning, and resources, ensuring our community
+                              has the best possible advantages in the market. We
+                              will be the community that unmasks Satoshi
+                              Nakamoto!
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList sixth_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 6</Button>
+                          <Box sx={listWrapper}>
+                            <Typography component={"h3"}>
+                              GALAXY PALS Auctions and Community Events
+                            </Typography>
+                            <Typography component={"p"}>
+                              Conduct legendary GALAXY PALS auctions and
+                              collaborative events, with a portion of the
+                              proceeds supporting community initiatives and
+                              causes.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Engage the community in decision-making processes,
+                              ensuring a democratic and inclusive environment.
+                            </Typography>
+                          </Box>
+                        </div>
+                      </li>
+                      <li className="TimeLineBoxList seventh_content">
+                        <div className="content ">
+                          <Button sx={{}}>Phase 7</Button>
+                          <Box sx={listWrapper}>
                             <Typography component={"p"}>
                               Exploration of potential opportunities in creating
                               a play-to-earn game or launching a meme coin,

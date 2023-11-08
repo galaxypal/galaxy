@@ -13,6 +13,8 @@ import teamThree from "../images/Nft-7.png";
 import teamFour from "../images/Nft-8.png";
 import TradersPOV from "../images/Nft-6.png";
 import AmooHosseinYT from "../images/Nft-4.png";
+import TwitterLogo from "../images/TwitterLogo.png";
+import InstagramLogo from "../images/InstagramLogo.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -158,6 +160,7 @@ const TheTrailerServices = {
     transition: "all 0.5s ease",
     mt: "-20px",
   },
+  "& .TwitterLogoWrapper": { "& .TwitterLogo": { mt: "30px", width: "30px" } },
 };
 
 const MintyLatestNews = () => {
@@ -227,6 +230,14 @@ const MintyLatestNews = () => {
                         Blockchain and art manager
                       </Typography>
                     </Typography>
+                    <Box className="TwitterLogoWrapper">
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={TwitterLogo.src}
+                        alt=""
+                      />
+                    </Box>
                   </Box>
                 </Typography>
               </Grid>
@@ -255,6 +266,14 @@ const MintyLatestNews = () => {
                         Web3 Growth hacker
                       </Typography>
                     </Typography>
+                    <Box className="TwitterLogoWrapper">
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={TwitterLogo.src}
+                        alt=""
+                      />
+                    </Box>
                   </Box>
                 </Typography>
               </Grid>
@@ -313,13 +332,21 @@ const MintyLatestNews = () => {
                         Trading Wizard
                       </Typography>
                     </Typography>
+                    <Box className="TwitterLogoWrapper">
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={TwitterLogo.src}
+                        alt=""
+                      />
+                    </Box>
                   </Box>
                 </Typography>
               </Grid>
               <Grid item xs={12} md={4}>
                 <Typography
                   component={"a"}
-                  href="https://twitter.com/amoohosseinyt?s=21"
+                  href="https://www.instagram.com/mrcryptoo/?hl=en."
                   target="_blank"
                 >
                   <Box sx={TheTrailerServices}>
@@ -336,7 +363,7 @@ const MintyLatestNews = () => {
                       component={"p"}
                       className="save_planet"
                     >
-                      @AmooHosseinYT
+                      @mrcryptoo
                       <br />
                       <Typography
                         component={"span"}
@@ -346,6 +373,14 @@ const MintyLatestNews = () => {
                         Community Engagement Expert
                       </Typography>
                     </Typography>
+                    <Box className="TwitterLogoWrapper">
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={InstagramLogo.src}
+                        alt=""
+                      />
+                    </Box>
                   </Box>
                 </Typography>
               </Grid>
