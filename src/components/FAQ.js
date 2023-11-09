@@ -126,8 +126,9 @@ const FAQ = () => {
                   </Accordion> */}
                   <Accordion
                     className="AccordianInnerWrapper"
-                    expanded={expanded === "panel2"}
-                    onChange={handleChange("panel2")}
+                    defaultExpanded
+                    expanded={expanded === "panel1"}
+                    onChange={handleChange("panel1")}
                   >
                     <AccordionSummary
                       expandIcon={<FAQIcon />}
@@ -145,8 +146,8 @@ const FAQ = () => {
                   </Accordion>
                   <Accordion
                     className="AccordianInnerWrapper"
-                    expanded={expanded === "panel3"}
-                    onChange={handleChange("panel3")}
+                    expanded={expanded === "panel2"}
+                    onChange={handleChange("panel2")}
                   >
                     <AccordionSummary
                       expandIcon={<FAQIcon />}
@@ -166,8 +167,8 @@ const FAQ = () => {
                   </Accordion>
                   <Accordion
                     className="AccordianInnerWrapper"
-                    expanded={expanded === "panel4"}
-                    onChange={handleChange("panel4")}
+                    expanded={expanded === "panel3"}
+                    onChange={handleChange("panel3")}
                   >
                     <AccordionSummary
                       expandIcon={<FAQIcon />}
