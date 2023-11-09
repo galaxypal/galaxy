@@ -102,7 +102,7 @@ const FAQ = () => {
               </Grid>
               <Grid item xs={12} md={6}>
                 <Box sx={AccordionWrapper}>
-                  <Accordion
+                  {/* <Accordion
                     className="AccordianInnerWrapper"
                     defaultExpanded
                     expanded={expanded === "panel1"}
@@ -120,10 +120,10 @@ const FAQ = () => {
                       <Typography>
                         No because some of our team is not in Iran and they will
                         do it
-                        {/* <br></br> We never DM you first. */}
+                      
                       </Typography>
                     </AccordionDetails>
-                  </Accordion>
+                  </Accordion> */}
                   <Accordion
                     className="AccordianInnerWrapper"
                     expanded={expanded === "panel2"}
