@@ -206,7 +206,11 @@ const MintyLatestNews = () => {
               }}
             >
               <Grid item xs={12} md={4}>
-                <Typography component={"a"} href="" target="_blank">
+                <Typography
+                  component={"a"}
+                  href="https://twitter.com/raullpzlpz?s=21"
+                  target="_blank"
+                >
                   <Box sx={TheTrailerServices}>
                     <Typography
                       sx={{ borderRadius: "50%" }}
@@ -220,7 +224,7 @@ const MintyLatestNews = () => {
                       className="planet_hero"
                     >
                       {" "}
-                      @mina_monk
+                      @raullopez
                       <br />
                       <Typography
                         component={"span"}
