@@ -347,7 +347,7 @@ const MintyLatestNews = () => {
                   </Box>
                 </Typography>
               </Grid>
-              <Grid item xs={12} md={4}>
+              {/* <Grid item xs={12} md={4}>
                 <Typography
                   component={"a"}
                   href="https://www.instagram.com/mrcryptoo/?hl=en."
@@ -387,7 +387,7 @@ const MintyLatestNews = () => {
                     </Box>
                   </Box>
                 </Typography>
-              </Grid>
+              </Grid> */}
             </Grid>
             <Grid
               container

@@ -184,7 +184,6 @@ const FAQ = () => {
                       <Typography>No you pay that once</Typography>
                     </AccordionDetails>
                   </Accordion>
-
                   <Typography
                     className="JoinChannelDescription"
                     component={"p"}
