@@ -3,6 +3,9 @@ import { Box, Button, Typography } from "@mui/material";
 // import BannerImg from "../images/Bannerbgimagupdated.png";
 import BannerImg from "../images/BgBannerNew.png";
 import Logo from "../images/WhiteLogo.png";
+import Binance from "../images/binance.svg";
+import Marketcap from "../images/Marketcapnew.png";
+
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
   backgroundImage: `linear-gradient(180deg, #180f3917 0%, #0e090b87 80%), url(${BannerImg.src})`,
@@ -522,6 +525,20 @@ const SectionSecoundBannerBox = {
     },
   },
 };
+const LogoWrapper = {
+  display: { xs: "block", sm: "flex" },
+  justifyContent: "center",
+  alignItems: "center",
+  marginTop: "20px",
+  gap: "20px",
+  "& img": {
+    width: "140px",
+    boxShadow: " 0px 0px 14px 0px #00000066",
+    borderRadius: "50px",
+    padding: "15px 35px",
+    height: "25px",
+  },
+};
 const HomeAnimationBanner = () => {
   const sceneOneRef = useRef(null);
   const sceneTwoRef = useRef(null);
@@ -627,6 +644,22 @@ const HomeAnimationBanner = () => {
                 >
                   <Button>GET WL</Button>
                 </Typography>
+                <Box sx={LogoWrapper}>
+                  <Typography
+                    component={"a"}
+                    href="https://www.binance.com/en/feed/post/257597199713"
+                    target="_blank"
+                  >
+                    <img src={Binance.src} alt="" />
+                  </Typography>
+                  <Typography
+                    component={"a"}
+                    href="https://coinmarketcap.com/community/post/331786467/"
+                    target="_blank"
+                  >
+                    <img src={Marketcap.src} alt="" />
+                  </Typography>
+                </Box>
               </Box>
             </Box>
             {/* <Box sx={SectionSecoundBannerBox}>

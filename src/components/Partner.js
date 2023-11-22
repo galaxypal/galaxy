@@ -597,15 +597,25 @@ const Partner = () => {
                           <Button sx={{}}>Phase 1</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Presale and Community Building
+                              The Abduction
                             </Typography>
                             <Typography component={"p"}>
-                              Exclusive presale access for whitelisted members.
+                              Community Engagement: Launch an engagement
+                              competition for free NFTs. Top Zealy members and
+                              active participants in community challenges get
+                              rewarded.
                             </Typography>
                             <Typography component={"p"}>
-                              Initiatives to foster community engagement and
-                              establish a strong foundation of trust and
-                              collaboration.
+                              Collaborations: Partner with platforms like Zealy,
+                              QuestN, Hypodrop, CoinMarketCap, Binance, and
+                              other NFT projects for mutual growth and
+                              visibility.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Offer specialized support for specific community
+                              groups,teach people how to do first trade and how
+                              to buy first crypto and set up trading account
+                              with our referral to MEXC, a zero fee exchange..
                             </Typography>
                           </Box>
                         </div>
@@ -616,11 +626,21 @@ const Partner = () => {
                           <Button sx={{}}>Phase 2</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Official Launch
+                              Community support
                             </Typography>
                             <Typography component={"p"}>
-                              Release of the remaining 6,000 GALAXY PALS NFTs
-                              for public minting on the Ethereum blockchain
+                              Unleash free trading signals to early supporters +
+                              Free alpha (detailed market
+                              updates/analysis/explanations) for members
+                              Whitelist Spots: Distribute whitelist spots
+                              through various community activities and
+                              competitions.
+                            </Typography>
+                            <Typography component={"p"}>
+                              AMA Collaborations: Host fun Spaces/AMAs on
+                              Fridays with great projects and special guests,
+                              influencers, Traders, etc. WL spots/
+                              airdrop/giveaways
                             </Typography>
                           </Box>
                         </div>
@@ -629,10 +649,16 @@ const Partner = () => {
                         <div className="content ContentThird">
                           <Button sx={{}}>Phase 3</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>Airdrops</Typography>
+                            <Typography component={"h3"}>The Launch</Typography>
                             <Typography component={"p"}>
-                              We will give away NFT’s, crypto, and have
-                              engagement competitions
+                              6000 NFTs minted, with exclusive presale discounts
+                              and whitelist benefits Personalized coaching for
+                              newbies on first trades, crypto buying, account
+                              set-up Airdrops, giveaways, Free TradingView for
+                              top community participants Special perks for
+                              holders of 3+ NFTs Follow trading signals with
+                              community wallet, distribute rewards to dedicated
+                              members, and purchase NFT’s for our community
                             </Typography>
                           </Box>
                         </div>
@@ -641,16 +667,19 @@ const Partner = () => {
                         <div className="content ">
                           <Button sx={{}}>Phase 4</Button>
                           <Box sx={listWrapper}>
-                            {/* <Typography component={"h3"}>
-                              Metaverse Collaboration and Trading Mastery
-                            </Typography> */}
-                            <Typography component={"p"}>
-                              Enhancement of our trading tools and resources,
-                              ensuring our community has the best possible
-                              advantages in the market.
+                            <Typography component={"h3"}>
+                              Galactic Contest
                             </Typography>
                             <Typography component={"p"}>
-                              onboard seasonal traders
+                              Arrange crypto trading tournaments for traders of
+                              all levels.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Give crypto prizes to multiple traders
+                              weekly.Participate by following signals and win
+                              rewards. Unique scoring based on percentage
+                              returns to encourage smart risk-taking! Learn the
+                              game not the money!
                             </Typography>
                           </Box>
                         </div>
@@ -660,21 +689,20 @@ const Partner = () => {
                           <Button sx={{}}>Phase 5</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Metaverse Collaboration and Satoshi investigation
+                              The Cosmic Expansion
                             </Typography>
                             <Typography component={"p"}>
-                              Partnership with Aeddon Metaverse and other
-                              prominent projects to host team gatherings, where
-                              we disclose market insights, strategize on
-                              trading, and collaboratively Discuss side quest
-                              updates.
+                              Community members nominate professional traders to
+                              compete for ETH reward Winner of all Pros will be
+                              hired to give the community free trading
+                              signals/alpha! Launch Project Satoshi: use AI and
+                              machine learning to find Nakamoto's next venture
+                              and reveal it to the world.
                             </Typography>
                             <Typography component={"p"}>
-                              Enhancement of our trading tools, machine
-                              learning, and resources, ensuring our community
-                              has the best possible advantages in the market. We
-                              will be the community that unmasks Satoshi
-                              Nakamoto!
+                              Puzzle and clue-solving games for members with
+                              NFT/token prizes. Discounts on paid groups, books,
+                              courses, and subscriptions
                             </Typography>
                           </Box>
                         </div>
@@ -684,22 +712,17 @@ const Partner = () => {
                           <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              GALAXY PALS Auctions and Community Events
+                              Community-Driven DAO
                             </Typography>
                             <Typography component={"p"}>
-                              Conduct legendary GALAXY PALS auctions and
-                              collaborative events, with a portion of the
-                              proceeds supporting community initiatives and
-                              causes.
-                            </Typography>
-                            <Typography component={"p"}>
-                              Engage the community in decision-making processes,
-                              ensuring a democratic and inclusive environment.
+                              Early bird access to ICO’s Let members vote on
+                              featured traders, content, initiatives Purchase
+                              event space in leading metaverse worlds.
                             </Typography>
                           </Box>
                         </div>
                       </li>
-                      <li className="TimeLineBoxList seventh_content">
+                      {/* <li className="TimeLineBoxList seventh_content">
                         <div className="content ">
                           <Button sx={{}}>Phase 7</Button>
                           <Box sx={listWrapper}>
@@ -711,7 +734,7 @@ const Partner = () => {
                             </Typography>
                           </Box>
                         </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </section>
                 </div>
