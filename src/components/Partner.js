@@ -632,6 +632,8 @@ const Partner = () => {
                               Unleash free trading signals to early supporters +
                               Free alpha (detailed market
                               updates/analysis/explanations) for members
+                            </Typography>
+                            <Typography component={"p"}>
                               Whitelist Spots: Distribute whitelist spots
                               through various community activities and
                               competitions.
@@ -652,13 +654,23 @@ const Partner = () => {
                             <Typography component={"h3"}>The Launch</Typography>
                             <Typography component={"p"}>
                               6000 NFTs minted, with exclusive presale discounts
-                              and whitelist benefits Personalized coaching for
-                              newbies on first trades, crypto buying, account
-                              set-up Airdrops, giveaways, Free TradingView for
-                              top community participants Special perks for
-                              holders of 3+ NFTs Follow trading signals with
-                              community wallet, distribute rewards to dedicated
-                              members, and purchase NFT’s for our community
+                              and whitelist benefits
+                            </Typography>
+                            <Typography component={"p"}>
+                              Personalized coaching for newbies on first trades,
+                              crypto buying, account set-up
+                            </Typography>
+                            <Typography component={"p"}>
+                              Airdrops, giveaways, Free TradingView for top
+                              community participants
+                            </Typography>
+                            <Typography component={"p"}>
+                              Special perks for holders of 3+ NFTs
+                            </Typography>
+                            <Typography component={"p"}>
+                              Follow trading signals with community wallet,
+                              distribute rewards to dedicated members, and
+                              purchase NFT’s for our community
                             </Typography>
                           </Box>
                         </div>
@@ -693,16 +705,24 @@ const Partner = () => {
                             </Typography>
                             <Typography component={"p"}>
                               Community members nominate professional traders to
-                              compete for ETH reward Winner of all Pros will be
-                              hired to give the community free trading
-                              signals/alpha! Launch Project Satoshi: use AI and
-                              machine learning to find Nakamoto's next venture
-                              and reveal it to the world.
+                              compete for ETH reward
+                            </Typography>
+                            <Typography component={"p"}>
+                              Winner of all Pros will be hired to give the
+                              community free trading signals/alpha!
+                            </Typography>
+                            <Typography component={"p"}>
+                              Launch Project Satoshi: use AI and machine
+                              learning to find Nakamoto's next venture and
+                              reveal it to the world.
                             </Typography>
                             <Typography component={"p"}>
                               Puzzle and clue-solving games for members with
-                              NFT/token prizes. Discounts on paid groups, books,
-                              courses, and subscriptions
+                              NFT/token prizes.
+                            </Typography>
+                            <Typography component={"p"}>
+                              Discounts on paid groups, books, courses, and
+                              subscriptions
                             </Typography>
                           </Box>
                         </div>
@@ -715,9 +735,27 @@ const Partner = () => {
                               Community-Driven DAO
                             </Typography>
                             <Typography component={"p"}>
-                              Early bird access to ICO’s Let members vote on
-                              featured traders, content, initiatives Purchase
-                              event space in leading metaverse worlds.
+                              Early bird access to ICO’s
+                            </Typography>
+                            <Typography component={"p"}>
+                              Let members vote on featured traders, content,
+                              initiatives
+                            </Typography>
+                            <Typography component={"p"}>
+                              Purchase event space in leading metaverse worlds.
+                            </Typography>
+                            <Typography component={"h3"}>
+                              Additional Plans
+                            </Typography>
+                            <Typography component={"p"}>
+                              Assemble investment portfolio with community input
+                            </Typography>
+                            <Typography component={"p"}>
+                              Research potential for branded P2E game or meme
+                              coin
+                            </Typography>
+                            <Typography component={"p"}>
+                              Secure early access to hyped NFT mints for members
                             </Typography>
                           </Box>
                         </div>

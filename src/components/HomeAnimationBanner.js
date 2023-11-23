@@ -654,7 +654,7 @@ const HomeAnimationBanner = () => {
                   </Typography>
                   <Typography
                     component={"a"}
-                    href="https://coinmarketcap.com/community/post/331786467/"
+                    href="https://coinmarketcap.com/community/articles/655a1f5772648745f33fa620/"
                     target="_blank"
                   >
                     <img src={Marketcap.src} alt="" />
