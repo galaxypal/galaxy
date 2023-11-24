@@ -14,7 +14,7 @@ import teamFour from "../images/Nft-8.png";
 import TradersPOV from "../images/Nft-6.png";
 import AmooHosseinYT from "../images/Nft-4.png";
 import TwitterLogo from "../images/TwitterLogo.png";
-import InstagramLogo from "../images/InstagramLogo.png";
+import LinkedinLogo from "../images/LinkedinLogo.png";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
@@ -160,7 +160,14 @@ const TheTrailerServices = {
     transition: "all 0.5s ease",
     mt: "-20px",
   },
-  "& .TwitterLogoWrapper": { "& .TwitterLogo": { mt: "30px", width: "30px" } },
+  "& .TwitterLogoWrapper": {
+    "& .TwitterLogo": {
+      mt: "30px",
+      width: "30px",
+      mr: "10px",
+      ml: "10px",
+    },
+  },
 };
 
 const MintyLatestNews = () => {
@@ -206,80 +213,104 @@ const MintyLatestNews = () => {
               }}
             >
               <Grid item xs={12} md={4}>
-                <Typography
-                  component={"a"}
-                  href="https://twitter.com/raullpzlpz?s=21"
-                  target="_blank"
-                >
-                  <Box sx={TheTrailerServices}>
+                <Box sx={TheTrailerServices}>
+                  <Typography
+                    sx={{ borderRadius: "50%" }}
+                    component={"img"}
+                    src={team.src}
+                    alt=""
+                  />
+                  <Typography
+                    sx={{ color: "#ffff" }}
+                    component={"p"}
+                    className="planet_hero"
+                  >
+                    {" "}
+                    @raullopez
+                    <br />
                     <Typography
-                      sx={{ borderRadius: "50%" }}
-                      component={"img"}
-                      src={team.src}
-                      alt=""
-                    />
-                    <Typography
-                      sx={{ color: "#ffff" }}
-                      component={"p"}
-                      className="planet_hero"
+                      component={"span"}
+                      sx={{ fontSize: "16px", color: "white" }}
                     >
                       {" "}
-                      @raullopez
-                      <br />
-                      <Typography
-                        component={"span"}
-                        sx={{ fontSize: "16px", color: "white" }}
-                      >
-                        {" "}
-                        Blockchain and art manager
-                      </Typography>
+                      Blockchain and art manager
                     </Typography>
-                    <Box className="TwitterLogoWrapper">
+                  </Typography>
+                  <Box className="TwitterLogoWrapper">
+                    <Typography
+                      component={"a"}
+                      href="https://twitter.com/raullpzlpz?s=21"
+                      target="_blank"
+                    >
                       <Typography
                         className="TwitterLogo"
                         component={"img"}
                         src={TwitterLogo.src}
                         alt=""
                       />
-                    </Box>
+                    </Typography>
+                    <Typography
+                      component={"a"}
+                      href="https://www.linkedin.com/in/raul-lopez-a4571629b/"
+                      target="_blank"
+                    >
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={LinkedinLogo.src}
+                        alt=""
+                      />
+                    </Typography>
                   </Box>
-                </Typography>
+                </Box>
               </Grid>
               <Grid item xs={12} md={4}>
-                <Typography
-                  component={"a"}
-                  href="https://twitter.com/arvinknft?s=21"
-                  target="_blank"
-                >
-                  <Box sx={TheTrailerServices}>
+                <Box sx={TheTrailerServices}>
+                  <Typography
+                    sx={{ borderRadius: "50%" }}
+                    component={"img"}
+                    src={teamFour.src}
+                    alt=""
+                  />
+                  <Typography component={"p"} className="planet_hero">
+                    {" "}
+                    @arvinknft
+                    <br />
                     <Typography
-                      sx={{ borderRadius: "50%" }}
-                      component={"img"}
-                      src={teamFour.src}
-                      alt=""
-                    />
-                    <Typography component={"p"} className="planet_hero">
+                      component={"span"}
+                      sx={{ fontSize: "16px", color: "white" }}
+                    >
                       {" "}
-                      @arvinknft
-                      <br />
-                      <Typography
-                        component={"span"}
-                        sx={{ fontSize: "16px", color: "white" }}
-                      >
-                        {" "}
-                        Web3 Growth hacker
-                      </Typography>
+                      Web3 Growth hacker
                     </Typography>
-                    <Box className="TwitterLogoWrapper">
+                  </Typography>
+                  <Box className="TwitterLogoWrapper">
+                    <Typography
+                      component={"a"}
+                      href="https://twitter.com/arvinknft?s=21"
+                      target="_blank"
+                    >
                       <Typography
                         className="TwitterLogo"
                         component={"img"}
                         src={TwitterLogo.src}
                         alt=""
+                      />{" "}
+                    </Typography>
+                    <Typography
+                      component={"a"}
+                      href="https://www.linkedin.com/in/arvinkhamseh/"
+                      target="_blank"
+                    >
+                      <Typography
+                        className="TwitterLogo"
+                        component={"img"}
+                        src={LinkedinLogo.src}
+                        alt=""
                       />
-                    </Box>
+                    </Typography>
                   </Box>
-                </Typography>
+                </Box>
               </Grid>
               {/* <Grid item xs={12} md={4}>
                 <Typography
@@ -307,45 +338,45 @@ const MintyLatestNews = () => {
                 </Typography>
               </Grid> */}
               <Grid item xs={12} md={4}>
-                <Typography
-                  component={"a"}
-                  href="https://twitter.com/traderspov?s=21"
-                  target="_blank"
-                >
-                  <Box sx={TheTrailerServices}>
-                    <Typography
-                      sx={{ borderRadius: "50%" }}
-                      className="ecoBattery"
-                      component={"img"}
-                      src={TradersPOV.src}
-                      alt=""
-                    />
+                <Box sx={TheTrailerServices}>
+                  <Typography
+                    sx={{ borderRadius: "50%" }}
+                    className="ecoBattery"
+                    component={"img"}
+                    src={TradersPOV.src}
+                    alt=""
+                  />
 
+                  <Typography
+                    sx={{ color: "#ffff" }}
+                    component={"p"}
+                    className="save_planet"
+                  >
+                    @TradersPOV
+                    <br />
                     <Typography
-                      sx={{ color: "#ffff" }}
-                      component={"p"}
-                      className="save_planet"
+                      component={"span"}
+                      sx={{ fontSize: "16px", color: "white" }}
                     >
-                      @TradersPOV
-                      <br />
-                      <Typography
-                        component={"span"}
-                        sx={{ fontSize: "16px", color: "white" }}
-                      >
-                        {" "}
-                        Trading Wizard
-                      </Typography>
+                      {" "}
+                      Trading Wizard
                     </Typography>
-                    <Box className="TwitterLogoWrapper">
+                  </Typography>
+                  <Box className="TwitterLogoWrapper">
+                    <Typography
+                      component={"a"}
+                      href="https://twitter.com/traderspov?s=21"
+                      target="_blank"
+                    >
                       <Typography
                         className="TwitterLogo"
                         component={"img"}
                         src={TwitterLogo.src}
                         alt=""
                       />
-                    </Box>
+                    </Typography>
                   </Box>
-                </Typography>
+                </Box>
               </Grid>
               {/* <Grid item xs={12} md={4}>
                 <Typography
