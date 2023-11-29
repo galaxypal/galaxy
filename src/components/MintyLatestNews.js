@@ -8,9 +8,11 @@ import {
   Typography,
 } from "@mui/material";
 
-import team from "../images/Nft-1.png";
+// import team from "../images/Nft-1.png";
+import team from "../images/RaullopezNew.png";
 import teamThree from "../images/Nft-7.png";
-import teamFour from "../images/Nft-8.png";
+// import teamFour from "../images/Nft-8.png";
+import teamFour from "../images/ArvinkNew.png";
 import TradersPOV from "../images/Nft-6.png";
 import AmooHosseinYT from "../images/Nft-4.png";
 import TwitterLogo from "../images/TwitterLogo.png";
