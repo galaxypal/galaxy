@@ -1,7 +1,8 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
 // import NftImg from "../images/Nftimggif.gif";
-import NftImg from "../images/NftimgNew.gif";
+// import NftImg from "../images/NftimgNew.gif";
+import NftImg from "../images/NftGif.gif";
 
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
