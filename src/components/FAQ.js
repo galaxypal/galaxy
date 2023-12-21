@@ -87,43 +87,21 @@ const FAQ = () => {
   return (
     <>
       <Box component={"section"} sx={SectionWrapper} id="FAQ">
-        <Container>
+        {/* <Container>
           <Box sx={{ flexGrow: 1 }}>
             <Grid container spacing={2} sx={{ mt: "30px" }}>
               <Grid item xs={12} md={6}>
                 <Box sx={ContentWrapper}>
                   <Typography component={"h2"}>FAQ</Typography>
                   <Typography component={"p"}>
-                    {/* Got questions? Weve got answers.
-                    <br /> */}
+                 
                     Check out our FAQ section for all the info you need.
                   </Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>
                 <Box sx={AccordionWrapper}>
-                  {/* <Accordion
-                    className="AccordianInnerWrapper"
-                    defaultExpanded
-                    expanded={expanded === "panel1"}
-                    onChange={handleChange("panel1")}
-                  >
-                    <AccordionSummary
-                      expandIcon={<FAQIcon />}
-                      aria-controls="panel1a-content"
-                      id="panel1a-header"
-                      className="AccordionHeader"
-                    >
-                      <Typography>Is Opensea gonna delete it?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails className="AccordionBody">
-                      <Typography>
-                        No because some of our team is not in Iran and they will
-                        do it
-                      
-                      </Typography>
-                    </AccordionDetails>
-                  </Accordion> */}
+                  
                   <Accordion
                     className="AccordianInnerWrapper"
                     defaultExpanded
@@ -203,7 +181,7 @@ const FAQ = () => {
               </Grid>
             </Grid>
           </Box>
-        </Container>
+        </Container> */}
         <Footer />
       </Box>
     </>
