@@ -17,7 +17,7 @@ const SectionWrapper = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "top center",
-  pt: "90px",
+  // pt: "90px",
   pb: "40px",
   position: "relative",
   marginBottom: "-70px",
