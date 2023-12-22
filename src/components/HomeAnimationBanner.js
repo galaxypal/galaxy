@@ -9,7 +9,7 @@ import Marketcap from "../images/Marketcapnew.png";
 
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
-  backgroundImage: `linear-gradient(180deg, #00000057 0%, #0e090bb0 80%), url(${BannerImg.src})`,
+  backgroundImage: ` url(${BannerImg.src})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "center center",
@@ -535,10 +535,11 @@ const LogoWrapper = {
   "& img": {
     width: "140px",
     // boxShadow: " 0px 0px 14px 0px #00000066",
-    boxShadow: " 0px 0px 14px 0px #ffffff66",
+    // boxShadow: " 0px 0px 14px 0px #fffffff0",
     borderRadius: "50px",
     padding: "15px 35px",
     height: "25px",
+    backgroundColor: "#ffffff69",
   },
 };
 const HomeAnimationBanner = () => {

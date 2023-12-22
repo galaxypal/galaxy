@@ -13,7 +13,7 @@ import FAQIcon from "../images/FAQIcon";
 import Footer from "./Footer";
 
 const SectionWrapper = {
-  backgroundImage: `linear-gradient(to right, #1b11468a 0%, #0e090bbd 50%), url(${BannerImg.src})`,
+  // backgroundImage: `linear-gradient(to right, #1b11468a 0%, #0e090bbd 50%), url(${BannerImg.src})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "top center",
