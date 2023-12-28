@@ -9,7 +9,7 @@ import Marketcap from "../images/Marketcapnew.png";
 
 const SectionWrapper = {
   // backgroundImage: `linear-gradient(180deg, rgb(24 15 57 / 58%) 0%, rgb(14 9 11 / 79%) 80%), url(${BannerImg.src})`,
-  backgroundImage: ` url(${BannerImg.src})`,
+  backgroundImage: `linear-gradient(90deg, rgb(24 15 57 / 0%) 0%, rgb(14 9 11 / 40%) 89%),url(${BannerImg.src})`,
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
   backgroundPosition: "center center",
@@ -638,7 +638,9 @@ const HomeAnimationBanner = () => {
                   stellar airdrops
                 </Typography>
                 <Typography component={"P"}>
-                  MINT DATE : SOONER THAN YOU THINK
+                  MINT DATE : SOONER THAN YOU THINK to Teaching people with no
+                  experience how to conduct their first profitable trades in 7
+                  days or less!
                 </Typography>
                 <Typography
                   component={"a"}

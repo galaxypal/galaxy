@@ -339,7 +339,7 @@ const MintyLatestNews = () => {
                   </Box>
                 </Typography>
               </Grid> */}
-              <Grid item xs={12} md={4}>
+              {/* <Grid item xs={12} md={4}>
                 <Box sx={TheTrailerServices}>
                   <Typography
                     sx={{ borderRadius: "50%" }}
@@ -379,7 +379,7 @@ const MintyLatestNews = () => {
                     </Typography>
                   </Box>
                 </Box>
-              </Grid>
+              </Grid> */}
               {/* <Grid item xs={12} md={4}>
                 <Typography
                   component={"a"}
