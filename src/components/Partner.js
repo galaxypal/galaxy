@@ -600,22 +600,21 @@ const Partner = () => {
                               The Abduction
                             </Typography>
                             <Typography component={"p"}>
-                              Community Engagement: Launch an engagement
-                              competition for free NFTs. Top Zealy members and
-                              active participants in community challenges get
-                              rewarded.
+                              <strong>Our Focus:</strong> Crypto trading and web
+                              3.0 education on Earth.
                             </Typography>
                             <Typography component={"p"}>
-                              Collaborations: Partner with platforms like Zealy,
-                              QuestN, Hypodrop, CoinMarketCap, Binance, and
-                              other NFT projects for mutual growth and
-                              visibility.
+                              <strong>Activities:</strong> Engagement
+                              competitions for free NFTs, crypto airdrops.
                             </Typography>
                             <Typography component={"p"}>
-                              Offer specialized support for specific community
-                              groups,teach people how to do first trade and how
-                              to buy first crypto and set up trading account
-                              with our referral to MEXC, a zero fee exchange..
+                              <strong>Collaborations:</strong> Partnerships with
+                              Zealy, QuestN, CoinMarketCap, Binance, BingX, etc.
+                            </Typography>
+                            <Typography component={"p"}>
+                              <strong>Social Media:</strong> Reached 10k+
+                              followers across all socials, develop
+                              relationships with bluechip NFT communities
                             </Typography>
                           </Box>
                         </div>
@@ -626,23 +625,18 @@ const Partner = () => {
                           <Button sx={{}}>Phase 2</Button>
                           <Box sx={listWrapper}>
                             <Typography component={"h3"}>
-                              Community support
+                              Community Support & Free Utility
                             </Typography>
                             <Typography component={"p"}>
-                              Unleash free trading signals to early supporters +
-                              Free alpha (detailed market
-                              updates/analysis/explanations) for members
+                              Offering trading signals, live market sessions,
+                              and coaching for beginners.
                             </Typography>
                             <Typography component={"p"}>
-                              Whitelist Spots: Distribute whitelist spots
-                              through various community activities and
-                              competitions.
+                              Bing X exclusive campaign, free rewards for
+                              beginners.
                             </Typography>
                             <Typography component={"p"}>
-                              AMA Collaborations: Host fun Spaces/AMAs on
-                              Fridays with great projects and special guests,
-                              influencers, Traders, etc. WL spots/
-                              airdrop/giveaways
+                              Presales (stay tuned)
                             </Typography>
                           </Box>
                         </div>
@@ -651,26 +645,20 @@ const Partner = () => {
                         <div className="content ContentThird">
                           <Button sx={{}}>Phase 3</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>The Launch</Typography>
-                            <Typography component={"p"}>
-                              6000 NFTs minted, with exclusive presale discounts
-                              and whitelist benefits
+                            <Typography component={"h3"}>
+                              The Launch of 6000 NFTs
                             </Typography>
                             <Typography component={"p"}>
-                              Personalized coaching for newbies on first trades,
-                              crypto buying, account set-up
+                              Exclusive WL discounts, airdrops, and giveaways.
                             </Typography>
                             <Typography component={"p"}>
-                              Airdrops, giveaways, Free TradingView for top
-                              community participants
+                              Creation of automated trading bots based on
+                              predefined conditions.
                             </Typography>
                             <Typography component={"p"}>
-                              Special perks for holders of 3+ NFTs
-                            </Typography>
-                            <Typography component={"p"}>
-                              Follow trading signals with community wallet,
-                              distribute rewards to dedicated members, and
-                              purchase NFT’s for our community
+                              Hiring Web 3.0 experts to guide the community in
+                              earning money through airdrop farming, staking,
+                              and related online opportunities.
                             </Typography>
                           </Box>
                         </div>
@@ -683,15 +671,12 @@ const Partner = () => {
                               Galactic Contest
                             </Typography>
                             <Typography component={"p"}>
-                              Arrange crypto trading tournaments for traders of
-                              all levels.
+                              Hosted by BingX. Weekly crypto trading tournaments
+                              with unique scoring based on percentage returns.
                             </Typography>
                             <Typography component={"p"}>
-                              Give crypto prizes to multiple traders
-                              weekly.Participate by following signals and win
-                              rewards. Unique scoring based on percentage
-                              returns to encourage smart risk-taking! Learn the
-                              game not the money!
+                              Funding for trading competitions, rewards for NFT
+                              holders, pro trader tournaments
                             </Typography>
                           </Box>
                         </div>
@@ -704,25 +689,15 @@ const Partner = () => {
                               The Cosmic Expansion
                             </Typography>
                             <Typography component={"p"}>
-                              Community members nominate professional traders to
-                              compete for ETH reward
+                              Supplying dedicated members with trading
+                              materials, including TradingView subscriptions and
+                              advanced indicators, and discounts.
                             </Typography>
                             <Typography component={"p"}>
-                              Winner of all Pros will be hired to give the
-                              community free trading signals/alpha!
-                            </Typography>
-                            <Typography component={"p"}>
-                              Launch Project Satoshi: use AI and machine
-                              learning to find Nakamoto's next venture and
-                              reveal it to the world.
-                            </Typography>
-                            <Typography component={"p"}>
-                              Puzzle and clue-solving games for members with
-                              NFT/token prizes.
-                            </Typography>
-                            <Typography component={"p"}>
-                              Discounts on paid groups, books, courses, and
-                              subscriptions
+                              Investment in the development of AI tools for data
+                              analysis across 500 cryptocurrencies, specifically
+                              aimed at identifying optimal trading
+                              opportunities.
                             </Typography>
                           </Box>
                         </div>
@@ -731,31 +706,23 @@ const Partner = () => {
                         <div className="content ">
                           <Button sx={{}}>Phase 6</Button>
                           <Box sx={listWrapper}>
-                            <Typography component={"h3"}>
+                            {/* <Typography component={"h3"}>
                               Community-Driven DAO
+                            </Typography> */}
+                            <Typography component={"p"}>
+                              Voting on mentor selection and focus on project
+                              growth, leveraging crypto investments to develop
+                              trading tools, giving the community an edge in Web
+                              3.0.
                             </Typography>
                             <Typography component={"p"}>
-                              Early bird access to ICO’s
+                              Facilitating trading for blue-chip projects
                             </Typography>
                             <Typography component={"p"}>
-                              Let members vote on featured traders, content,
-                              initiatives
-                            </Typography>
-                            <Typography component={"p"}>
-                              Purchase event space in leading metaverse worlds.
-                            </Typography>
-                            <Typography component={"h3"}>
-                              Additional Plans
-                            </Typography>
-                            <Typography component={"p"}>
-                              Assemble investment portfolio with community input
-                            </Typography>
-                            <Typography component={"p"}>
-                              Research potential for branded P2E game or meme
-                              coin
-                            </Typography>
-                            <Typography component={"p"}>
-                              Secure early access to hyped NFT mints for members
+                              Utilizing machine learning to investigate the
+                              identity of Satoshi Nakamoto and investing in
+                              their next venture to expand Galaxy Pals, aiming
+                              to establish it as a blue-chip entity.
                             </Typography>
                           </Box>
                         </div>
