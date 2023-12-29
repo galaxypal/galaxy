@@ -9,7 +9,8 @@ import {
 } from "@mui/material";
 
 // import team from "../images/Nft-1.png";
-import team from "../images/RaullopezNew.png";
+// import team from "../images/RaullopezNew.png";
+import team from "../images/RaullopezNew291223.png";
 import teamThree from "../images/Nft-7.png";
 // import teamFour from "../images/Nft-8.png";
 import teamFour from "../images/ArvinkNew.png";
