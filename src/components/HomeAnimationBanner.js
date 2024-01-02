@@ -635,14 +635,12 @@ const HomeAnimationBanner = () => {
               <Typography component={"img"} src={Logo.src} alt="" />
               <Box className="InnerBox">
                 <Typography component={"h3"}>
-                  Treasure Hunt for Bitcoin's Architect, Trading alpha, and
-                  stellar airdrops
+                  Teaching people with no experience how to conduct their first
+                  profitable trades in 7 days or less!
                 </Typography>
-                <Typography component={"P"}>
-                  MINT DATE : SOONER THAN YOU THINK to Teaching people with no
-                  experience how to conduct their first profitable trades in 7
-                  days or less!
-                </Typography>
+                {/* <Typography component={"P"}>
+                  MINT DATE : SOONER THAN YOU THINK
+                </Typography> */}
                 <Typography
                   component={"a"}
                   href="https://zealy.io/c/galaxypals/"
