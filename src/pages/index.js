@@ -10,6 +10,7 @@ import MintyLatestNews from "@/components/MintyLatestNews";
 import FAQ from "@/components/FAQ";
 import MissionStatementOne from "@/components/MissionStatementOne";
 import MissionStatementTwo from "@/components/MissionStatementTwo";
+import MissionStatementThree from "@/components/MissionStatementThree";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function Home() {
         {/* <TabLetestNews value={value} setValue={setValue} /> */}
         <MissionStatementOne />
         <MissionStatementTwo />
+        <MissionStatementThree />
         {/* <NftSection /> */}
         <StarrySky />
         <MintyLatestNews />

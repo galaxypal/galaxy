@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, Typography } from "@mui/material";
 import React from "react";
-import NftImg from "../images/MissionStatementTwo.png";
-
+// import NftImg from "../images/MissionStatementTwo.png";
+import NftImg from "../images/SatoshiInevstigation.gif";
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",

@@ -24,7 +24,7 @@ const SectionWrapper = {
   backgroundSize: "cover",
   backgroundPosition: "top center",
   position: "relative",
-  mt: { xs: "50px", sm: "85px", md: "-210px" },
+  mt: { xs: "85px", sm: "85px", md: "85px" },
   // pb: { sm: "90px" },
   "& > .NFTBg": {
     position: "absolute",
