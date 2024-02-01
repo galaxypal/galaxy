@@ -467,14 +467,14 @@ const Partner = () => {
                 sx={{
                   color: "#fff",
                   textShadow: ".1em .1em 0 rgba(79, 49, 19, 0.478)",
-                  fontSize: "60px",
-                  textAlign: { xs: "center", lg: "center" },
-                  marginBottom: { xs: "65px", sm: "65px", md: "120px" },
+                  fontSize: { xs: "60px", md: "100px" },
+                  textAlign: "center",
+                  marginBottom: { xs: "65px", md: "120px" },
                   fontFamily: "Vividly !important",
                   fontWeight: "900",
                 }}
               >
-                GALAXY PALS ROAD MAP
+                ROAD MAP
               </Typography>
             </Grid>
 

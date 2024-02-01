@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 // import NftImg from "../images/MissionStatementTwo.png";
 import IphoneImg from "../images/DualIphone.png";
 import CheckIcon from "../images/checked-data.png";
+import Link from "next/link";
 const SectionWrapper = {
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -208,6 +209,15 @@ const MissionStatementThree = () => {
                       lineHeight: 1,
                       fontFamily: "Vividly !important",
                       // textTransform: "uppercase",
+                      "& a": {
+                        color: "#23fea8",
+                        fontWeight: 500,
+                        fontSize: "26px",
+                        marginBottom: "20px",
+                        lineHeight: 1,
+                        fontFamily: "Vividly !important",
+                        textDecoration: "none",
+                      },
                     },
                     "& button": {
                       background:
@@ -256,8 +266,15 @@ const MissionStatementThree = () => {
                     Right now, we're offering free signals from 3 expert
                     traders. This helps our early community members save enough
                     to purchase our NFT and evaluate the value of our signals.
-                    Check out our public P&L sheet here: Public PnL Sheet.
-                    Additionally, Our raise funds are allocated towards:
+                    Check out our{" "}
+                    <Link
+                      href="https://docs.google.com/spreadsheets/d/1N1nAiupnsNEXKXwr6vOrc8cp48Jp5QHX3OUJNoDhs94/edit#gid=0"
+                      target="_blank"
+                    >
+                      public P&L sheet
+                    </Link>{" "}
+                    here: Public PnL Sheet. Additionally, Our raise funds are
+                    allocated towards:
                   </Typography>
                   <Typography component={"ul"}>
                     <Typography component={"li"}>
