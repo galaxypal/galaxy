@@ -120,7 +120,7 @@ const MissionStatementOne = () => {
                   <Typography component={"h3"}>
                     Trading Excellence and Market Mastery
                   </Typography>
-                  <Typography component={"p"}>
+                  {/* <Typography component={"p"}>
                     We get it, you want financial freedom– Galaxy Pals exists to
                     provide NFT holders with trading signals and exclusive
                     insights from top-tier traders. It's not just about owning
@@ -136,15 +136,18 @@ const MissionStatementOne = () => {
                     members with sharp trading insights, provided by elite
                     traders known for their market consistency, and enhanced by
                     strategic AI-driven crypto analysis.
-                  </Typography>
-                  {/* <Typography component={"p"}>
-                    We are adept at navigating market manipulations and
-                    profiting from anomalies, with our technical analysis
-                    expertise transforming us into market maestros, trading with
-                    the precision of market makers. As we navigate the crypto
-                    world's complexities, we also embark on thrilling side
-                    quests, further enriching our community experience.
                   </Typography> */}
+                  <Typography component={"p"}>
+                    Imagine having all the resources of multiple trading
+                    experts, daily signals, live trade workshops & analysis,
+                    cutting-edge crypto AI analysis tools, and trading bots –
+                    all without the burden of monthly fees. That's Galaxy Pals
+                    for you – a smarter, more efficient, and cost-effective way
+                    to engage with the crypto market. We landed on earth to
+                    disrupt traditional subscription models to offer you an
+                    all-in-one trading NFT crafted by traders. Say goodbye to
+                    monthly fees and embrace a one-time investment.
+                  </Typography>
                 </Box>
               </Grid>
               <Grid item xs={12} md={6}>
