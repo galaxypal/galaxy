@@ -262,7 +262,7 @@ const MissionStatementThree = () => {
                   <Typography component={"h3"}>
                     UTILITY: EXPERIENCE OUR TRADING SIGNALS AND TRADING BOTS
                   </Typography>
-                  <Typography component={"p"}>
+                  {/* <Typography component={"p"}>
                     Right now, we're offering free signals from 3 expert
                     traders. This helps our early community members save enough
                     to purchase our NFT and evaluate the value of our signals.
@@ -275,6 +275,17 @@ const MissionStatementThree = () => {
                     </Link>{" "}
                     here: Public PnL Sheet. Additionally, Our raise funds are
                     allocated towards:
+                  </Typography> */}
+                  <Typography component={"p"}>
+                    Imagine having all the resources of multiple trading
+                    experts, daily signals, live trade workshops & analysis,
+                    cutting-edge crypto AI analysis tools, and trading bots –
+                    all without the burden of monthly fees. That's Galaxy Pals
+                    for you – a smarter, more efficient, and cost-effective way
+                    to engage with the crypto market. We landed on earth to
+                    disrupt traditional subscription models to offer you an
+                    all-in-one trading NFT crafted by traders. Say goodbye to
+                    monthly fees and embrace a one-time investment.
                   </Typography>
                   <Typography component={"ul"}>
                     <Typography component={"li"}>
